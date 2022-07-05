@@ -13,20 +13,21 @@ Ce guide est divisé en deux parties, car un projet doit être d'abord approuvé
 La proposition de projet doit être acceptable dans un contexte universitaire et donc doit être approuvée par le Département de génie logiciel et des TI. Les critères pour évaluer les projets sont les suivants:
 
 - la portée est appropriée pour au moins 4 étudiants; 
-- la dimension de conception est acceptable (il y a des contraintes réalistes) et il n'y a pas de conflits d'intérêts;
-- le sujet se prête bien à un contexte universitaire.
+- la dimension de conception est acceptable (le problème est ouvert, peut être résolu en itérations, il y a des contraintes réalistes) et il n'y a pas de conflits d'intérêts;
+- le sujet se prête bien à un contexte de formation universitaire.
 
-## Portée
+## Portée du travail
 
 Un PFE typique comprend:
 
-- 180 heures (4 crédits fois 15 heures de travail par crédit) de travail par étudiant.e
+- 180 heures (4 crédits fois 45 heures de travail par crédit) de travail par étudiant.e
 - 4 ou 5 étudiant.e.s par projet (en équipe)
 - un trimestre 15 semaines
 - au moins 3 itérations de 2 à 3 semaines
 
 ::: {.callout-caution appearance="simple"}
-La rédaction acceptable des rapports représente au moins un quart, voire un tiers, de ce travail. Une partie importante de la note des étudiants est basée sur la qualité du rapport final.
+La rédaction acceptable des rapports représente au moins un quart, voire un tiers, de ce travail. 
+Une partie importante de la note des étudiants est basée sur la qualité du rapport final.
 :::
 
 La recommandation au promoteur pour la portée est de proposer un projet avec un problème plutôt ouvert, où toutes les choses ne seront pas réalisables dans 15 semaines. 
