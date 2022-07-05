@@ -54,7 +54,6 @@ ul.task-list{list-style: none;}
   }
 }</script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -145,27 +144,49 @@ ul.task-list{list-style: none;}
 <h2 class="anchored" data-anchor-id="portée">Portée</h2>
 <p>Un PFE typique comprend:</p>
 <ul>
-<li>180 heures (4 crédits <span class="math inline">\(x\)</span> 15 heures de travail par crédit) de travail par étudiant.e</li>
+<li>180 heures (4 crédits fois 15 heures de travail par crédit) de travail par étudiant.e</li>
 <li>4 ou 5 étudiant.e.s par projet (en équipe)</li>
 <li>un trimestre 15 semaines</li>
 <li>au moins 3 itérations de 2 à 3 semaines</li>
 </ul>
-<p>La rédaction adéquate des rapports représente au moins un quart, voire un tiers, de ce travail. Une partie importante de la note des étudiants est basée sur la qualité du rapport final.</p>
+<div class="callout-caution callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>La rédaction acceptable des rapports représente au moins un quart, voire un tiers, de ce travail. Une partie importante de la note des étudiants est basée sur la qualité du rapport final.</p>
+</div>
+</div>
+</div>
 <p>La recommandation au promoteur pour la portée est de proposer un projet avec un problème plutôt ouvert, où toutes les choses ne seront pas réalisables dans 15 semaines.</p>
 <p>Par exemple, dans un processus agile, une série de <em>récits utilisateurs</em> sont déjà définis et priorisés au début du projet. L’équipe peut itérer 4 fois et va essayer de réaliser le plus de choses, mais c’est entendu que le projet ne sera pas «&nbsp;fini&nbsp;».</p>
 </section>
 <section id="conception" class="level2">
 <h2 class="anchored" data-anchor-id="conception">Conception</h2>
+<p>La conception est une dimension primordiale d’un PFE. Elle a une définition précise dans une école d’ingénieurs.</p>
+<div class="callout-note callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
 <p>Selon le Bureau canadien d’agrément des programmes de génie (BCAPG), la conception en ingénierie :</p>
-<blockquote class="blockquote">
 <p>«&nbsp;[…] intègre les mathématiques, les sciences naturelles, les sciences du génie et les études complémentaires pour développer des éléments, des systèmes et des processus <strong>qui répondent à des besoins précis</strong>. Il s’agit d’<strong>un processus créatif, itératif et évolutif</strong> qui est <strong>assujetti à des contraintes</strong> pouvant être régies par des normes ou des lois à divers degrés selon la spécialité. <strong>Ces contraintes peuvent être liées à des facteurs comme l’économie, la santé, la sécurité, l’environnement et la société ou à d’autres facteurs interdisciplinaires</strong>.&nbsp;»</p>
-</blockquote>
-<p>Normalement, le <strong>domaine d’affaires</strong> du promoteur (surtout dans un contexte industriel) amène naturellement des besoins précis et des contraintes.</p>
-<p>Un exemple de projet qui manque de conception serait de travailler sur un backlog de «&nbsp;bogues&nbsp;» dans un dépôt de code source.</p>
+</div>
+</div>
+</div>
+<p>Normalement, le <strong>domaine d’affaires</strong> du promoteur (surtout lorsque celui-ci est une Compagnie) amène naturellement des besoins précis et des contraintes reliées à l’économie, la santé, etc.</p>
+<p>Voici quelques exemples de projets qui ne sont pas acceptables sur le volet de conception:</p>
+<ul>
+<li>Corriger un arriéré (<em>backlog</em>) de «&nbsp;bogues&nbsp;» (issues) dans un dépôt de code source, sous la supervision d’un employé de la Compagnie.</li>
+<li>Coder en C++ une solution selon un design réalisé par l’architecte de la Compagnie</li>
+<li>Planification de projet en «&nbsp;cascade&nbsp;» sans itération: 2 semaines pour définir les besoins, 3 semaines pour faire un design, 3 semaines pour coder, 2 semaines pour tester, etc.</li>
+</ul>
 </section>
 <section id="contexte-universitaire" class="level2">
 <h2 class="anchored" data-anchor-id="contexte-universitaire">Contexte universitaire</h2>
-<p>Le PFE est un cours universitaire pour les finissants. La proposition de projet doit tenir compte de ce contexte, car c’est différent d’un contrat de recherche avec une Compagnie ou d’un stage industriel.</p>
+<p>Le PFE est <strong>un cours universitaire pour les étudiant.e.s en fin de programme de premier cycle</strong>. La proposition de projet doit tenir compte de ce contexte. C’est différent d’un contrat de recherche avec une Compagnie ou d’un stage industriel.</p>
 <section id="rôles-des-trois-parties-prenantes" class="level3">
 <h3 class="anchored" data-anchor-id="rôles-des-trois-parties-prenantes">Rôles des trois parties prenantes</h3>
 <p>Il y a trois parties prenantes dans un PFE: les étudiant.e.s, les professeur.e.s et les promoteurs (qui sont parfois des compagnies).</p>
@@ -173,21 +194,47 @@ ul.task-list{list-style: none;}
 <ul>
 <li>L’apprentissage des notions apprises durant le baccalauréat grâce à une application pratique qui va conduire à la rédaction d’un rapport technique et une présentation devant un public</li>
 <li>Dans le cas des PFE en LOG et en GTI, des logiciels sont souvent créés</li>
-<li>⚠ Un PFE n’est pas un contrat avec une entreprise: <strong>il n’y a pas de livrables définis, pas de dates fixes, pas de garanties de qualité du code, etc.</strong></li>
 </ul>
+<div class="callout-caution callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Un PFE n’est pas un contrat avec une entreprise: <strong>il n’y a pas de livrables définis, pas de dates fixes, pas de garanties de qualité du code, etc.</strong></p>
+</div>
+</div>
+</div>
 <p><strong>Professeur.e.s de l’ÉTS</strong></p>
 <ul>
-<li>Encadrement de l’équipe dans un <strong>contexte de formation universitaire</strong></li>
-<li>Évaluation de l’équipe dans le contexte du cours de PFE (selon le plan de cours)</li>
-<li>⚠ L’expertise ou la propriété intellectuelle (PI) des professeur.e.s ne font pas partie de ces projets</li>
-<li>Les droits de PI des professeurs de l’ÉTS appartiennent à l’ÉTS</li>
+<li>L’encadrement (coaching) de l’équipe dans un <strong>contexte de formation universitaire</strong></li>
+<li>L’évaluation de l’équipe dans le contexte du cours de PFE (selon le plan de cours)</li>
 </ul>
+<div class="callout-caution callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>L’expertise ou la propriété intellectuelle (PI) des professeur.e.s ne font pas partie de ces projets. Les droits de PI des professeurs de l’ÉTS appartiennent à l’ÉTS.</p>
+</div>
+</div>
+</div>
 <p><strong>Promoteur (Compagnie)</strong></p>
 <ul>
 <li>Mentor, transfert de connaissances dans un contexte de formation universitaire</li>
 <li>«&nbsp;Expert du domaine&nbsp;» ou <a href="https://scrumdictionary.com/term/subject-matter-expert-sme/">«&nbsp;Subject Matter Expert&nbsp;» (SME)</a> en méthodologie Scrum.</li>
-<li>⚠ Il faut <strong>éviter le transfert de l’information confidentielle</strong>, car cela complique le contexte universitaire et crée les risques pour démarrer un projet surtout avec plusieurs étudiants</li>
 </ul>
+<div class="callout-caution callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Il faut <strong>éviter le transfert de l’information confidentielle</strong>, car cela complique le contexte universitaire et crée les risques pour démarrer un projet surtout avec plusieurs étudiants.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="droits-et-responsabilités" class="level3">
 <h3 class="anchored" data-anchor-id="droits-et-responsabilités">Droits et responsabilités</h3>
@@ -230,12 +277,21 @@ ul.task-list{list-style: none;}
 <li>Entente de confidentialité (Projet Type II) entre 1)&nbsp;l’ÉTS, 2)&nbsp;les étudiant.e.s et 3)&nbsp;la Compagnie, signée par les trois parties avec une intervention des professeur.e.s</li>
 <li>Entente de cession de droits (entente Type III) entre 1)&nbsp;tout.e.s les étudiant.e.s et 2)&nbsp;la Compagnie, rédigée par l’ÉTS.</li>
 </ol>
-<p>⚠ Si une Compagnie exige une entente de cession de droits, il y a des conséquences:</p>
+<div class="callout-caution callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Si une Compagnie exige une entente de cession de droits, il y a des conséquences:</p>
 <ul>
 <li>L’ÉTS ne peut offrir aucun avis légal aux étudiant.e.s pour comprendre les clauses de ces ententes. C’est leur responsabilité de chercher un avis professionnel (légal) avant de signer.</li>
-<li>Puisque les étudiants sont libres de négocier les clauses de l’entente, cela peut s’avérer complexe avec quatre ou cinq étudiants. Ce processus peut retarder le démarrage, voire nécessiter l’annulation du projet. Les étudiants sont informés de ce risque lorsqu’un projet exige une entente qui n’est pas de Type III.</li>
+<li>Puisque les étudiants sont libres de négocier les clauses de l’entente, cela peut s’avérer complexe, surtout avec quatre ou cinq étudiants. Cette négociation peut retarder le démarrage, voire nécessiter l’annulation, du projet. Les étudiants sont informés de ce risque lorsqu’un projet exige une entente qui n’est pas de Type III.</li>
 <li>Les étudiant.e.s sont libres de choisir leurs projets candidats et peuvent simplement éviter les projets avec les ententes de cession de droits (de type III ou autre).</li>
 </ul>
+</div>
+</div>
+</div>
 </section>
 </section>
 </section>
