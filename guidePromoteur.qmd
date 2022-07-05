@@ -109,11 +109,12 @@ Pour réduire les risques de délais des PFE, il y a plusieurs outils disponible
 - Puisque les étudiants sont libres de négocier les clauses de l'entente, cela peut s'avérer complexe avec quatre ou cinq étudiants. Ce processus peut retarder le démarrage, voire nécessiter l'annulation du projet. Les étudiants sont informés de ce risque lorsqu'un projet exige une entente qui n'est pas de Type III.
 - Les étudiant.e.s sont libres de choisir leur projets candidats et peuvent simplement éviter les projets avec les ententes de cession de droits (de type III ou autre).
 
-# Proposer un projet intéressant aux étudiant.e.s
+# Projet intéressant aux étudiant.e.s
 
 Les étudiant.e.s "votent" pour cinq projets parmi les propositions. Souvent, il y a plus de propositions de projet que d'équipes, ce qui veut dire qu'un certain nombre de projets ne sont pas choisis.
 
 Alors, voici quelques stratégies pour "attirer" les étudiant.e.s:
+
 - permettre une souplesse avec des solutions technologiques, p. ex. *front-end* moderne comme Angular ou React (plutôt que React).
 - éviter une obligation sur une technologie niche (p.ex. Ruby on rails, Rust, etc.) - il n'est pas impossible que les étudiants s'y intéressent, mais il faut un minimum de 4 pour former une équipe.
 - utiliser un langage vulgarisé pour les finissants dans un baccalauréat en ingénierie - le termes utilisés pour les demandes de financements rendent un projet "flou"
