@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Projets fin d'études en LOG et GTI"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - guidePromoteur.qmd
+      - about.qmd
+
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+    toc: true
+    lang: fr-CA
+
+filters: 
+  - filters/pandoc-quotes.lua
+#  - filters/diagram-generator.lua
+  - quarto
+
+
