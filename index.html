@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr-CA" xml:lang="fr-CA"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.647">
+<meta name="generator" content="quarto-0.9.649">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projets fin d’études en LOG et GTI - PFE en LOG et TI</title>
+<title>Projets fin d’études (LOG et GTI) - Projets fin d’études</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,7 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon-32x32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,7 +66,8 @@ ul.task-list{list-style: none;}
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Projets fin d’études en LOG et GTI</span>
+    <img src="./images/logo_ets.svg" alt="">
+    <span class="navbar-title">Projets fin d’études (LOG et GTI)</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -96,7 +98,7 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#Proposer" id="toc-Proposer" class="nav-link active" data-scroll-target="#Proposer">Proposition un projet</a></li>
+  <li><a href="#Proposer" id="toc-Proposer" class="nav-link active" data-scroll-target="#Proposer">Proposition de projet</a></li>
   <li><a href="#approbation-de-projet" id="toc-approbation-de-projet" class="nav-link" data-scroll-target="#approbation-de-projet">Approbation de projet</a></li>
   <li><a href="#Determiner" id="toc-Determiner" class="nav-link" data-scroll-target="#Determiner">Détermination des équipes</a></li>
   </ul>
@@ -107,7 +109,8 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PFE en LOG et TI</h1>
+<h1 class="title">Projets fin d’études</h1>
+<p class="subtitle lead">Génie logiciel (LOG) et Génie des technologies de l’information (GTI) de l’École de technologie supérieure (ÉTS)</p>
 </div>
 
 
@@ -125,7 +128,7 @@ ul.task-list{list-style: none;}
 <p>Pour éviter une redondance, ce site ne contient pas des informations déjà présentées dans le plan de cours ou sur <a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">la plateforme Moodle</a> accessible aux personnes inscrites à l’un ou l’autre des cours (LOG795/GTI795).</p>
 <p>Sur cette page sont documentés les processus pour <a href="#Proposer">Proposer un projet</a> et pour <a href="#Determiner">Déterminer les équipes</a>.</p>
 <section id="Proposer" class="level1">
-<h1>Proposition un projet</h1>
+<h1>Proposition de projet</h1>
 <p>Qui peut proposer un projet? Un «&nbsp;promoteur&nbsp;» d’un projet est une personne ou groupe qui propose le projet et qui en sera le principal bénéficiaire. Il peut s’agir d’une compagnie, d’un membre du corps professoral, d’un club étudiant, d’un entrepreneur du Centech, etc.</p>
 <p>Tout projet de fin d’études (PFE) doit avoir été proposé par un promoteur et avoir été approuvé par le Département de génie logiciel et des TI. L’approbation se penche sur les aspects suivants :</p>
 <ul>
@@ -171,7 +174,7 @@ Avant de signer quoi que ce soit, tout.e.s les étudiant.e.s et les promoteurs (
 </section>
 <section id="Determiner" class="level1">
 <h1>Détermination des équipes</h1>
-<p>Une fois les projets approuvés, il faut déterminer les équipes d’étudiants par projet. Les étudiant.e.s choisissent plusieurs projets candidats. Ensuite, les équipes sont créées selon un algorithme. Le processus pour déterminer les équipes tient compte des sujets finalement approuvés, les intérêts des personnes inscrites dans le cours envers ces sujets, ainsi que la disponibilité des professeur.e.s attitré.e.s.</p>
+<p>Une fois les projets approuvés, il faut déterminer les équipes pour chaque projet. Pour favoriser la motivation dans les équipes, les personnes inscrites dans le cours choisissent (dans un sondage sur Moodle) plusieurs projets candidats. Ensuite, les équipes sont créées selon un algorithme qui tient compte des sujets finalement approuvés, les intérêts des personnes inscrites dans le cours envers ces sujets, ainsi que la disponibilité des professeur.e.s attitré.e.s. Il peut arriver qu’un projet n’ait pas suffisament d’intérêt pour former une équipe complète, ou que plusieurs équipes travaillent indépendemment sur le même projet.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="http://tiny.cc/pfelogti_proc_equpe_svg.png" class="img-fluid figure-img"></p>
@@ -260,6 +263,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
