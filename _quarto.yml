@@ -2,8 +2,11 @@ project:
   type: website
 
 website:
-  title: "Projets fin d'études en LOG et GTI"
+  title: "Projets fin d'études (LOG et GTI)"
+  favicon: images/favicon-32x32.png
   navbar:
+
+    logo: images/logo_ets.svg
     left:
       - href: index.qmd
         text: Processus
@@ -16,6 +19,8 @@ format:
     css: styles.css
     toc: true
     lang: fr-CA
+    link-external-icon: true
+    title-block-banner: false
 
 filters: 
   - filters/pandoc-quotes.lua
