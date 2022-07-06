@@ -21,16 +21,18 @@ Tout projet de fin d'études (PFE) doit avoir été proposé par un promoteur et
 - la dimension de conception est adéquate (il y a des contraintes réalistes) et qu'il n'y a pas de conflits d'intérêts;
 - le sujet se prête bien à un contexte universitaire.
 
+::: {.callout-note appearance="simple"}
 Selon le Bureau canadien d'agrément des programmes de génie (BCAPG), la conception en ingénierie :
 
-> "[...] intègre les mathématiques, les sciences naturelles, les sciences du génie et les études complémentaires pour développer des éléments, des systèmes et des processus **qui répondent à des besoins précis**. Il s'agit d'**un processus créatif, itératif et évolutif** qui est **assujetti à des contraintes** pouvant être régies par des normes ou des lois à divers degrés selon la spécialité. **Ces contraintes peuvent être liées à des facteurs comme l'économie, la santé, la sécurité, l'environnement et la société ou à d'autres facteurs interdisciplinaires**." 
+"[...] intègre les mathématiques, les sciences naturelles, les sciences du génie et les études complémentaires pour développer des éléments, des systèmes et des processus **qui répondent à des besoins précis**. Il s'agit d'**un processus créatif, itératif et évolutif** qui est **assujetti à des contraintes** pouvant être régies par des normes ou des lois à divers degrés selon la spécialité. **Ces contraintes peuvent être liées à des facteurs comme l'économie, la santé, la sécurité, l'environnement et la société ou à d'autres facteurs interdisciplinaires**." 
+:::
 
 Le promoteur propose un sujet avec [ce formulaire](http://tiny.cc/prop-pfe-logti). 
 
 Un projet de fin d'études est une activité de conception et d'apprentissage universitaire.
 Pour certains PFE, des ententes de confidentialité et de cession de droits de propriété intellectuelle peuvent être exigées.
 Avant de signer quoi que ce soit, tout.e.s les étudiant.e.s et les promoteurs (les partenaires industriels), le cas échéant, doivent lire et comprendre [ce document explicatif](https://docs.google.com/a/etsmtl.net/viewer?a=v&pid=sites&srcid=ZXRzbXRsLm5ldHxsb2c3OTUtZ3RpNzk1fGd4OjE5ZDAzZjM3M2I4NjI4NGE).
-Le [Guide pour les promoteurs](guidePromoteur.qmd) explique comment faire une bonne proposition de projet.
+Le [Guide du promoteur](guidePromoteur.qmd) explique comment faire une bonne proposition de projet.
 
 Le processus d'approbation de projet ressemble à ceci :
 
@@ -38,6 +40,9 @@ Le processus d'approbation de projet ressemble à ceci :
 
 # Déterminer les équipes {#Determiner}
 
+Une fois les projets approuvés, il faut déterminer les équipes d'étudiants par projet. 
+Les étudiant.e.s choisissent plusieurs projets candidats.
+Ensuite, les équipes sont créées selon un algorithme.
 Le processus pour déterminer les équipes tient compte des sujets finalement approuvés, les intérêts des personnes inscrites dans le cours envers ces sujets, ainsi que la disponibilité des professeur.e.s attitré.e.s.
 
-![Processus pour déterminer les équipes de projet fin d'études](http://tiny.cc/pfelogti_proc_equpe_svg)
+![Processus pour déterminer les équipes pour les projets de fin d'études](http://tiny.cc/pfelogti_proc_equpe_svg)
