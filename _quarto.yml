@@ -4,9 +4,12 @@ project:
 website:
   title: "Projets fin d'études (LOG et GTI)"
   favicon: images/favicon-32x32.png
+  # margin-header: |
+  #   ![École de technologie supérieure](images/Logo-ETS_SansTypo_FR_1.png)
   navbar:
-
-    logo: images/logo_ets.svg
+    background: light
+    search: true
+    logo: images/Logo-ETS_SansTypo_FR_1.png
     left:
       - href: index.qmd
         text: Processus
