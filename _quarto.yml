@@ -20,7 +20,7 @@ format:
     toc: true
     lang: fr-CA
     link-external-icon: true
-    title-block-banner: false
+    title-block-banner: true
 
 filters: 
   - filters/pandoc-quotes.lua
