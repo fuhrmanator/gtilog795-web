@@ -2,9 +2,9 @@
 title: "Guide du Promoteur"
 ---
 
-Afin de proposer un projet réussi et de comprendre la dynamique du PFE, voici un guide[^1] pour les Promoteurs.
+Afin de proposer un bon projet et de comprendre la dynamique du PFE, voici un guide[^SourceGuide] pour les promoteurs.
 
-[^1]: Ce guide est une adaptation de la présentation *"Ententes contractuelles pour vos projets de fin d'études"* préparée par Jack-Éric Vandenbroucke dans le contexte des PFE en Génie mécanique à l'ÉTS.
+[^SourceGuide]: Ce guide est une adaptation de la présentation "Ententes contractuelles pour vos projet de fin d'étude" préparée par Jack-Éric Vandenbroucke dans le contexte des PFE en Génie mécanique à l'ÉTS.
 
 Ce guide est divisé en deux parties, car un projet doit être d'abord approuvé par le Département, mais aussi sélectionné par des étudiants.
 
@@ -118,11 +118,12 @@ Bien qu'un PFE évite normalement le transfert de l'information confidentielle, 
 
 Pour réduire les risques de délais des PFE, il y a plusieurs outils disponibles pour gérer la PI dans un PFE:
 
-1. Document explicatif pour les PFE
-2. Entente de confidentialité (Projet Type I) entre 1)\ les étudiant.e.s et 2)\ la Compagnie
-3. Entente de confidentialité (Projet Type II) entre 1)\ l'ÉTS, 2)\ les étudiant.e.s et 3)\ la Compagnie, signée par les trois parties avec une intervention des professeur.e.s
-4. Entente de cession de droits (entente Type III) entre 1)\ tout.e.s les étudiant.e.s et 2)\ la Compagnie, rédigée par l'ÉTS.
+1. [Document explicatif pour les PFE][DocumentExplicatif]
+2. [Entente de confidentialité (Projet Type I)][EntenteConfidentialité] entre 1)\ les étudiant.e.s et 2)\ la Compagnie
+3. Entente de confidentialité (Projet Type II)[^EntenteTypeII] entre 1)\ l'ÉTS, 2)\ les étudiant.e.s et 3)\ la Compagnie, signée par les trois parties avec une intervention des professeur.e.s
+4. [Entente de cession de droits (entente Type III)][EntenteTypeIII] entre 1)\ tout.e.s les étudiant.e.s et 2)\ la Compagnie, rédigée par l'ÉTS.
 
+[^EntenteTypeII]: Pour accéder à cette entente, il faudra [contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII].
 
 ::: {.callout-caution appearance="simple"}
 Si une Compagnie exige une entente de cession de droits, il y a des conséquences:
@@ -144,3 +145,8 @@ Alors, voici quelques stratégies pour "attirer" les étudiant.e.s:
 - proposer un sujet qui soit intéressant pour la société, l'économie, etc.: un projet très orienté recherche, même s'il utilise les technologies modernes, est souvent évité par la plupart des étudiants.
 
 Finalement, sachez que l'un.e étudiant.e en fin d'études est "réticent.e aux risques". Les risques comprennent les ententes de cession de droits, les technologies niches, les sujets flous ou trop orientés recherche, etc.
+
+[DocumentExplicatif]: https://docs.google.com/document/d/10C1ZXyQVZYCVyIU9kC90va_SU66F3Gaj/edit?usp=sharing&ouid=100642354018215358554&rtpof=true&sd=true "Document explicatif – projet de fin d’études (PFE)"
+[EntenteConfidentialité]: https://docs.google.com/document/d/10AXS9zCFBchrkdGhY1sOMbVXTv8E3T9f/edit?usp=sharing&ouid=100642354018215358554&rtpof=true&sd=true "Entente de confidentialité étudiants - Compagnie"
+[EntenteTypeIII]: https://docs.google.com/document/d/109Ctegz_6huRqxybxu9atALjgmwG5yCm/edit?usp=sharing&ouid=100642354018215358554&rtpof=true&sd=true "Convention de cession de droits de propriété intellectuelle projet de fin d’études (PFE) Type III"
+[ContacterResponsableProjetTypeII]: mailto:christopher.fuhrman@etsmtl.ca?subject=PFE:%20Question%20pour%20projet%20Type%20II "Contacter le responsable des PFE"
