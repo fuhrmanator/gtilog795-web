@@ -146,6 +146,10 @@ Alors, voici quelques stratégies pour "attirer" les étudiant.e.s:
 
 Finalement, sachez que l'un.e étudiant.e en fin d'études est "réticent.e aux risques". Les risques comprennent les ententes de cession de droits, les technologies niches, les sujets flous ou trop orientés recherche, etc.
 
+# Soumettre une proposition
+
+Pour soumettre une proposition de projet, utilisez [ce formulaire](http://tiny.cc/prop-pfe-logti).
+
 [DocumentExplicatif]: https://drive.google.com/file/d/10CFRZoKVYXmSHSxwNTzzFozSTJO-GgV9/view "Document explicatif – projet de fin d'études (PFE)"
 [EntenteConfidentialité]: https://docs.google.com/document/d/10AXS9zCFBchrkdGhY1sOMbVXTv8E3T9f/edit?usp=sharing&ouid=100642354018215358554&rtpof=true&sd=true "Entente de confidentialité étudiants - Compagnie"
 [EntenteTypeIII]: https://docs.google.com/document/d/109Ctegz_6huRqxybxu9atALjgmwG5yCm/edit?usp=sharing&ouid=100642354018215358554&rtpof=true&sd=true "Convention de cession de droits de propriété intellectuelle projet de fin d'études (PFE) Type III"
