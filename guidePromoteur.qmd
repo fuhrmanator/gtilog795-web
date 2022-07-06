@@ -1,5 +1,6 @@
 ---
 title: "Guide du Promoteur"
+subtitle: "Comment proposer un bon projet de fin d'études"
 ---
 
 Afin de proposer un bon projet et de comprendre la dynamique du PFE, voici un guide[^SourceGuide] pour les promoteurs.
@@ -104,9 +105,9 @@ Il y a trois critères pour obtenir un brevet :
 
 Selon le ["Règlement des études de premier cycle"](https://www.etsmtl.ca/docs/etudes/premier-cycle/documents/reglements-etudes-1er-cycle) de l'ÉTS:
 
-- L'étudiant.e est propriétaire de ses œuvres (la propriété morale) c.f. Section 7.8.3
-- L'École n'a pas le droit d'utiliser la propriété morale de l'étudiant.e c.f. Section 7.8.3
-- L'École n'est pas responsable d'une utilisation commerciale ou industrielle des travaux produits par l'étudiant.e  Section 7.8.4
+- L'étudiant.e est propriétaire de ses œuvres (la propriété morale), cf. Section 7.8.3
+- L'École n'a pas le droit d'utiliser la propriété morale de l'étudiant.e, cf. Section 7.8.3
+- L'École n'est pas responsable d'une utilisation commerciale ou industrielle des travaux produits par l'étudiant.e, cf. Section 7.8.4
 
 ### Les ententes
 
@@ -116,21 +117,24 @@ Bien qu'un PFE évite normalement le transfert de l'information confidentielle, 
 1. Afin de pouvoir bien protéger une Propriété intellectuelle, une Compagnie doit s'assurer d'obtenir "une chaîne de titres clairs"
 1. Des investissements financiers importants sont effectués par les Compagnies et ils veulent les protéger
 
-Pour réduire les risques de délais des PFE, il y a plusieurs outils disponibles pour gérer la PI dans un PFE:
+Pour réduire les risques de délais des PFE, il y a plusieurs outils disponibles:
 
 1. [Document explicatif pour les PFE][DocumentExplicatif]
 2. [Entente de confidentialité (Projet Type I)][EntenteConfidentialité] entre 1)\ les étudiant.e.s et 2)\ la Compagnie
 3. Entente de confidentialité (Projet Type II)[^EntenteTypeII] entre 1)\ l'ÉTS, 2)\ les étudiant.e.s et 3)\ la Compagnie, signée par les trois parties avec une intervention des professeur.e.s
-4. [Entente de cession de droits (entente Type III)][EntenteTypeIII] entre 1)\ tout.e.s les étudiant.e.s et 2)\ la Compagnie, rédigée par l'ÉTS.
+4. [Entente de cession de droits (entente Type III)][EntenteTypeIII] entre 1)\ les étudiant.e.s et 2)\ la Compagnie, rédigée par l'ÉTS.
 
-[^EntenteTypeII]: Pour accéder à cette entente, il faudra [contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII].
+[^EntenteTypeII]: Pour accéder à l'entente de confidentialité (Type II), il faut avoir déjà en place un projet de recherche avec l'ÉTS. [Contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII].
 
 ::: {.callout-caution appearance="simple"}
 Si une Compagnie exige une entente de confidentialité ou de cession de droits, il y a des conséquences:
 
-- L'ÉTS ne peut offrir aucun avis légal aux étudiant.e.s pour comprendre les clauses de ces ententes. C'est leur responsabilité de chercher un avis professionnel (légal) avant de signer. 
-- Puisque les étudiants sont libres de négocier les clauses de l'entente, cela peut s'avérer complexe, surtout avec quatre ou cinq étudiants. Cette négociation peut retarder le démarrage, voire nécessiter l'annulation, du projet. Les étudiants sont informés de ce risque lorsqu'un projet exige une entente qui n'est pas de Type III.
-- Les étudiant.e.s sont libres de choisir leurs projets candidats et peuvent simplement éviter les projets avec les ententes de cession de droits (de Type III ou autre).
+- Puisque les étudiant.e.s (au moins 4 par équipe) sont libres de négocier individuellement les clauses des ententes, cela peut s'avérer complexe.
+Cette négociation peut retarder le démarrage, voire nécessiter l'annulation, du projet si elle n'aboutit pas.
+Pour minimiser ce risque, les étudiant.e.s sont informés de cette complexité lorsqu'un projet exige une entente.
+- L'ÉTS ne peut offrir aucun avis légal aux étudiant.e.s pour comprendre les clauses de ces ententes.
+C'est leur responsabilité de chercher un avis professionnel (légal) avant de signer. 
+- Les étudiant.e.s sont également libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre).
 :::
 
 # Projet intéressant aux étudiant.e.s
@@ -144,7 +148,7 @@ Alors, voici quelques stratégies pour "attirer" les étudiant.e.s:
 - utiliser un langage vulgarisé pour les étudiant.e.s en dernière année dans un baccalauréat en ingénierie: si vous recyclez une description d'un projet provenant d'une demande de subvention (qui cherche à démontrer la complexité ou l'importance du projet dans la société) cela pourrait rendre le projet plus difficile à comprendre.
 - proposer un sujet qui soit intéressant pour la société, l'économie, etc.: un projet très orienté recherche, même s'il utilise les technologies modernes, est souvent évité par la plupart des étudiants.
 
-Finalement, sachez que l'un.e étudiant.e en fin d'études est "réticent.e aux risques". Les risques comprennent les ententes de cession de droits, les technologies niches, les sujets flous ou trop orientés recherche, etc.
+Finalement, sachez que la personne inscrite dans le cours de projet fin d'études est souvent "réticente aux risques". Les risques comprennent les ententes de confidentialité et de cession de droits, les technologies niches, les problèmes flous ou trop orientés recherche, etc.
 
 # Soumettre une proposition
 
