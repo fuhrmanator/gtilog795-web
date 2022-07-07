@@ -4,8 +4,10 @@ project:
 website:
   title: "Projets fin d'études (LOG et GTI)"
   favicon: images/favicon-32x32.png
-  # margin-header: |
-  #   ![École de technologie supérieure](images/Logo-ETS_SansTypo_FR_1.png)
+  repo-url: https://github.com/fuhrmanator/gtilog795-web
+  repo-actions: [issue, edit]
+  page-footer: |
+    École de technologie supérieure, Département de génie logiciel et des technologies de l'information 
   navbar:
     background: light
     search: true
