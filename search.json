@@ -32,7 +32,7 @@
     "href": "about.html",
     "title": "À propos de ce site",
     "section": "",
-    "text": "Pour en savoir plus sur les sites Web de Quarto, visitez https://quarto.org/docs/websites."
+    "text": "Ce site web a été généré par Quarto.\nPour en savoir plus sur les sites Web de Quarto, visitez https://quarto.org/docs/websites."
   },
   {
     "objectID": "index.html",
