@@ -2,6 +2,9 @@
 title: "À propos de ce site"
 ---
 
+[École de technologie supérieure](https://www.etsmtl.ca/), [Département de génie logiciel et des technologies de l'information](https://www.etsmtl.ca/ets/gouvernance/decanats-et-departements/departement-genie-logiciel-ti)
+
+
 Ce site web a été généré par Quarto.
 
 Pour en savoir plus sur les sites Web de Quarto, visitez <https://quarto.org/docs/websites>.

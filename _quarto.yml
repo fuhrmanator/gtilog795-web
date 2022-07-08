@@ -7,11 +7,11 @@ website:
   repo-url: https://github.com/fuhrmanator/gtilog795-web
   repo-actions: [issue, edit]
   page-footer: |
-    École de technologie supérieure, Département de génie logiciel et des technologies de l'information 
+    [École de technologie supérieure](https://www.etsmtl.ca/), [Département de génie logiciel et des technologies de l'information](https://www.etsmtl.ca/ets/gouvernance/decanats-et-departements/departement-genie-logiciel-ti)
   navbar:
     background: light
     search: true
-    logo: images/Logo-ETS_SansTypo_FR_1.png
+    logo: images/logo_ets.svg
     left:
       - href: index.qmd
         text: Processus

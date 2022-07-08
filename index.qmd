@@ -1,11 +1,11 @@
 ---
 title: "Projets de fin d'études"
-subtitle: "Génie logiciel (LOG) et Génie des technologies de l'information (GTI) de l'École de technologie supérieure (ÉTS)"
+subtitle: "Génie logiciel (LOG) et Génie des technologies de l'information (GTI) de l'[École de technologie supérieure (ÉTS)](https://www.etsmtl.ca)"
 ---
 
-Bienvenue sur le site web des cours "LOG795, Projet fin d'études en génie logiciel" et "GTI795, Projet de fin d'études en génie des technologies de l'information". 
+Bienvenue sur le site web des cours "LOG795, Projet fin d'études en génie logiciel" et "GTI795, Projet de fin d'études en génie des technologies de l'information" au [Département de Génie logiciel et des technologies de l'information](https://www.etsmtl.ca/ets/gouvernance/decanats-et-departements/departement-genie-logiciel-ti) de l'[École de technologie supérieure](https://www.etsmtl.ca/).
 
-Pour éviter une redondance, ce site ne contient pas des informations déjà présentées dans le plan de cours ou sur [la plateforme Moodle](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) accessible aux personnes inscrites à l'un ou l'autre des cours (LOG795/GTI795). 
+Pour éviter une redondance, ce site ne contient pas des informations déjà présentées dans le plan de cours ou sur [la plateforme Moodle](https://ena.etsmtl.ca) accessible aux personnes inscrites à l'un ou l'autre des cours (LOG795/GTI795). 
 
 Sur cette page sont documentés les processus pour [Proposer un projet](#Proposer) et pour [Déterminer les équipes](#Determiner).
 
