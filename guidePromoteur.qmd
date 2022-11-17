@@ -21,8 +21,8 @@ La proposition de projet doit être acceptable dans un contexte universitaire et
 
 Un PFE typique comprend:
 
-- 180 heures (4 crédits, environ 45 heures de travail par crédit) de travail par étudiant.e
-- 4 à 6 étudiant.e.s par projet (en équipe)
+- 180 heures (4 crédits, environ 45 heures de travail par crédit) de travail par membre
+- 4 à 6 membres par projet (en équipe)
 - un trimestre 15 semaines
 - au moins 3 itérations de 2 à 3 semaines
 
@@ -56,15 +56,15 @@ Par contre, voici quelques exemples de projets qui ne sont pas acceptables sur l
 
 ## Contexte universitaire
 
-Le PFE est **un cours universitaire pour les étudiant.e.s en fin de programme de premier cycle**.
+Le PFE est **un cours universitaire pour les personnes en fin de programme de premier cycle**.
 La proposition de projet doit tenir compte de ce contexte.
 C'est différent d'un contrat de recherche ou d'un stage industriel.
 
 ### Rôles des trois parties prenantes
 
-Il y a trois parties prenantes dans un PFE: les étudiant.e.s, les professeur.e.s et les promoteurs (qui sont parfois des Compagnies).
+Il y a trois parties prenantes dans un PFE: la communauté étudiante inscrite dans le cours, le corps professoral affecté aux projets et les promoteurs (qui sont parfois des Compagnies).
 
-**Étudiant.e.s de l'ÉTS**
+**La communauté étudiante de l'ÉTS inscrite dans le PFE**
 
 - L'apprentissage des notions apprises durant le baccalauréat grâce à une application pratique qui va conduire à la rédaction d'un rapport technique et une présentation devant un public
 - Dans le cas des PFE en LOG et en GTI, des logiciels sont presque toujours créés
@@ -73,17 +73,17 @@ Il y a trois parties prenantes dans un PFE: les étudiant.e.s, les professeur.e.
 Un PFE n'est pas un contrat avec une entreprise: **il n'y a pas de livrables définis, pas de dates fixes, pas de garanties de qualité du code, etc.**
 :::
 
-**Professeur.e.s de l'ÉTS**
+**Le corps professoral de l'ÉTS affecté au projet**
 
 - L'encadrement (coaching) de l'équipe dans un **contexte de formation universitaire**
 - L'évaluation de l'équipe dans le contexte du cours de PFE (selon le plan de cours)
 
 ::: {.callout-caution appearance="simple"}
-L'expertise ou la propriété intellectuelle (PI) des professeur.e.s ne font pas partie de ces projets.
-Les droits de PI des professeurs de l'ÉTS appartiennent à l'ÉTS.
+L'expertise ou la propriété intellectuelle (PI) du corps professoral ne font pas partie de ces projets.
+Les droits de PI du corps professoral de l'ÉTS appartiennent à l'ÉTS.
 :::
 
-**Promoteur (Compagnie)**
+**Le Promoteur (Compagnie)**
 
 - Le mentorat et le transfert de connaissances dans un **contexte de formation universitaire**
 - "Expert du domaine" ou ["Subject Matter Expert" (SME)](https://scrumdictionary.com/term/subject-matter-expert-sme/) en méthodologie Scrum.
@@ -108,24 +108,24 @@ Il y a trois critères pour obtenir un brevet :
 
 Selon le ["Règlement des études de premier cycle"](https://www.etsmtl.ca/docs/etudes/premier-cycle/documents/reglements-etudes-1er-cycle) de l'ÉTS:
 
-- L'étudiant.e est propriétaire de ses œuvres (la propriété morale), cf. Section 7.8.3
-- L'École n'a pas le droit d'utiliser la propriété morale de l'étudiant.e, cf. Section 7.8.3
-- L'École n'est pas responsable d'une utilisation commerciale ou industrielle des travaux produits par l'étudiant.e, cf. Section 7.8.4
+- L'étudiant ou l'étudiante est propriétaire de ses œuvres (la propriété morale), cf. Section 7.8.3
+- L'École n'a pas le droit d'utiliser la propriété morale de l'étudiant ou de l'étudiante, cf. Section 7.8.3
+- L'École n'est pas responsable d'une utilisation commerciale ou industrielle des travaux produits par l'étudiant ou par l'étudiante, cf. Section 7.8.4
 
 ### Les ententes
 
 Bien qu'un PFE évite normalement le transfert de l'information confidentielle, il peut s'avérer nécessaire de faire une entente pour les raisons suivantes:
 
-1. Des informations confidentielles et stratégiques peuvent être échangées par la Compagnie (ou les professeur.e.s)
-1. Afin de pouvoir bien protéger une Propriété intellectuelle, une Compagnie doit s'assurer d'obtenir "une chaîne de titres clairs"
-1. Des investissements financiers importants sont effectués par les Compagnies et ils veulent les protéger
+1. Des informations confidentielles et stratégiques peuvent être échangées par la Compagnie (ou par le corps professoral).
+1. Afin de pouvoir bien protéger une Propriété intellectuelle, une Compagnie doit s'assurer d'obtenir "une chaîne de titres clairs".
+1. Des investissements financiers importants sont effectués par les Compagnies et ils veulent les protéger.
 
 Pour réduire les risques de délais des PFE, il y a plusieurs outils disponibles:
 
 1. [Document explicatif pour les PFE][DocumentExplicatif]
-2. [Entente de confidentialité (Projet Type I)][EntenteConfidentialité] entre 1)\ les étudiant.e.s et 2)\ la Compagnie
-3. Entente de confidentialité (Projet Type II)[^EntenteTypeII] entre 1)\ l'ÉTS, 2)\ les étudiant.e.s et 3)\ la Compagnie, signée par les trois parties avec une intervention des professeur.e.s
-4. [Entente de cession de droits (entente Type III)][EntenteTypeIII] entre 1)\ les étudiant.e.s et 2)\ la Compagnie, rédigée par l'ÉTS.
+2. [Entente de confidentialité (Projet Type I)][EntenteConfidentialité] entre 1)\ les membres étudiants de l'équipe et 2)\ la Compagnie
+3. Entente de confidentialité (Projet Type II)[^EntenteTypeII] entre 1)\ l'ÉTS, 2)\ les membres étudiants et 3)\ la Compagnie, signée par les trois parties avec une intervention du corps professoral
+4. [Entente de cession de droits (entente Type III)][EntenteTypeIII] entre 1)\ les membres étudiants et 2)\ la Compagnie, rédigée par l'ÉTS.
 
 [^EntenteTypeII]: Pour accéder à l'entente de confidentialité (Type II), il faut avoir déjà en place _un projet de recherche avec l'ÉTS_. [Contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII].
 
@@ -137,7 +137,7 @@ Cette négociation peut retarder le démarrage du projet.
 Si ces négociations prennent trop de temps, cela peut **nécessiter l'affectation de l'équipe à un autre projet**.
 - Pour minimiser ce risque, les personnes inscrites au cours de PFE sont informées de cette complexité lorsqu'un projet exige une entente.
 La nature des ententes est indiquée dans la proposition de projet.
-Le promoteur accepte de ne pas modifier les ententes (p.ex. au démarrage du projet), puisque les membres de l'équipe affectée au projet auraient fait leur choix de projet selon les conditions des ententes divulguées avec la proposition.
+Le promoteur accepte de ne pas modifier les ententes (p. ex. au démarrage du projet), puisque les membres de l'équipe affectée au projet auraient fait leur choix de projet selon les conditions des ententes divulguées avec la proposition.
 - L'ÉTS ne peut offrir aucun avis légal aux personnes inscrites dans le PFE pour comprendre les clauses de ces ententes.
 C'est leur responsabilité de chercher un avis professionnel (légal) avant de signer. 
 - Les personnes inscrites dans le PFE sont également libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre), surtout quand il n'y a pas de récompense financière pour leur travail.
@@ -146,7 +146,7 @@ Une proposition de projet avec trop de contraintes légales peut se trouver sans
 
 # Projet intéressant
 
-Chaque étudiant.e "vote" pour un nombre limité de projets parmi les propositions, spécifiant un ordre de préférence.
+Chaque personne inscrite dans le PFE choisit un nombre limité de projets parmi les propositions, spécifiant un ordre de préférence.
 Souvent, il y a plus de propositions de projet que d'équipes, ce qui veut dire qu'un certain nombre de projets ne sont pas choisis.
 Un projet sans équipe pourrait être re-soumis au trimestre suivant.
 
@@ -154,7 +154,7 @@ Alors, voici quelques stratégies pour faire une proposition intéressante:
 
 - permettre une souplesse avec des solutions technologiques, p. ex. *front-end* moderne comme Angular ou React, plutôt que juste React.
 - éviter une obligation sur une technologie niche (p. ex. Ruby on rails, Rust, etc.) - il n'est pas impossible que des étudiants s'y intéressent, mais il faut un minimum de 4 pour former une équipe. 
-- utiliser un langage vulgarisé pour les étudiant.e.s en dernière année dans un baccalauréat en ingénierie de génie logiciel et des technologies de l'information: si vous recyclez une description d'un projet provenant d'une demande de subvention (qui cherche à démontrer la complexité, la difficulté d'un problème) cela pourrait rendre le projet plus difficile à comprendre.
+- utiliser un langage vulgarisé pour l'étudiant et l'étudiante en dernière année dans un baccalauréat en ingénierie de génie logiciel et des technologies de l'information: si vous recyclez une description d'un projet provenant d'une demande de subvention (qui cherche à démontrer la complexité, la difficulté d'un problème) cela pourrait rendre le projet plus difficile à comprendre.
 - mentionner la forme des spécifications, p. ex. le *récits utilisateurs (user stories)*, le cas échéant, car ça peut rendre plus concret le problème.
 - mettre en évidence la valeur du projet pour la société, l'économie, la sécurité, l'environnement, etc.: un projet très orienté recherche fondamentale, même s'il utilise les technologies modernes, est souvent évité par la plupart des étudiants.
 
