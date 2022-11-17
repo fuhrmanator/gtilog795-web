@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr-CA" xml:lang="fr-CA"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.655">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -34,7 +39,7 @@ ul.task-list{list-style: none;}
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,23 +70,30 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./images/logo_ets.svg" alt="">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo_ets.svg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Projets fin d’études (LOG et GTI)</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Processus</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Processus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./guidePromoteur.html" aria-current="page">Guide du Promoteur</a>
+    <a class="nav-link active" href="./guidePromoteur.html" aria-current="page">
+ <span class="menu-text">Guide du Promoteur</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">À propos de ce site</a>
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">À propos de ce site</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -102,6 +114,7 @@ ul.task-list{list-style: none;}
   <div class="quarto-title-meta">
 
       
+    
       
     </div>
     
@@ -110,7 +123,7 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
@@ -291,9 +304,10 @@ ul.task-list{list-style: none;}
 <div class="callout-body-container">
 <p>Si une Compagnie exige une entente de confidentialité ou de cession de droits, il y a des conséquences:</p>
 <ul>
-<li>Puisque les étudiant.e.s (au moins 4 par équipe) sont libres de négocier individuellement les clauses des ententes, cela peut s’avérer complexe. Cette négociation peut retarder le démarrage, voire nécessiter l’annulation, du projet si elle n’aboutit pas. Pour minimiser ce risque, les étudiant.e.s sont informés de cette complexité lorsqu’un projet exige une entente.</li>
-<li>L’ÉTS ne peut offrir aucun avis légal aux étudiant.e.s pour comprendre les clauses de ces ententes. C’est leur responsabilité de chercher un avis professionnel (légal) avant de signer.</li>
-<li>Les étudiant.e.s sont également libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre).</li>
+<li>Puisque les membres de l’équipe (au moins 4) sont libres de négocier individuellement les clauses des ententes, cela peut s’avérer complexe. Cette négociation peut retarder le démarrage du projet. Si ces négociations prennent trop de temps, cela peut <strong>nécessiter l’affectation de l’équipe à un autre projet</strong>.</li>
+<li>Pour minimiser ce risque, les personnes inscrites au cours de PFE sont informées de cette complexité lorsqu’un projet exige une entente. La nature des ententes est indiquée dans la proposition de projet. Le promoteur accepte de ne pas modifier les ententes (p.ex. au démarrage du projet), puisque l’étudiant et l’étudiant affecté au projet aurait fait son choix de projet selon les conditions des ententes.</li>
+<li>L’ÉTS ne peut offrir aucun avis légal aux personnes inscrites dans le PFE pour comprendre les clauses de ces ententes. C’est leur responsabilité de chercher un avis professionnel (légal) avant de signer.</li>
+<li>Les personnes inscrites dans le PFE sont également libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre), surtout quand il n’y a pas de récompense financière pour leur travail. Une proposition de projet avec trop de contraintes légales peut se trouver sans équipe.</li>
 </ul>
 </div>
 </div>
@@ -322,15 +336,33 @@ ul.task-list{list-style: none;}
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notes de bas de page</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notes de bas de page</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p>Ce guide est une adaptation de la présentation «&nbsp;Ententes contractuelles pour vos projets de fin d’études&nbsp;» préparée par Jack-Éric Vandenbroucke dans le contexte des PFE en Génie mécanique à l’ÉTS.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>Pour accéder à l’entente de confidentialité (Type II), il faut avoir déjà en place un projet de recherche avec l’ÉTS. <a href="mailto:christopher.fuhrman@etsmtl.ca?subject=PFE:%20Question%20pour%20projet%20Type%20II">Contacter le responsable des PFE au Département de génie logiciel et des TI</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Ce guide est une adaptation de la présentation «&nbsp;Ententes contractuelles pour vos projets de fin d’études&nbsp;» préparée par Jack-Éric Vandenbroucke dans le contexte des PFE en Génie mécanique à l’ÉTS.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Pour accéder à l’entente de confidentialité (Type II), il faut avoir déjà en place <em>un projet de recherche avec l’ÉTS</em>. <a href="mailto:christopher.fuhrman@etsmtl.ca?subject=PFE:%20Question%20pour%20projet%20Type%20II">Contacter le responsable des PFE au Département de génie logiciel et des TI</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -352,7 +384,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -380,31 +429,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -412,7 +480,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
