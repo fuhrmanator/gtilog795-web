@@ -49,7 +49,7 @@ Le processus d'approbation de projet ressemble à ceci :
 
 Une fois les projets approuvés, il faut déterminer les équipes pour chaque projet. 
 Pour favoriser la motivation dans les équipes, les personnes inscrites dans le cours choisissent (dans un sondage sur Moodle) plusieurs projets candidats.
-Ensuite, les équipes de 4 à 6 étudiants sont déterminées selon un algorithme qui tient compte des sujets finalement approuvés, des intérêts des personnes inscrites dans le cours envers ces sujets, ainsi que de la disponibilité des professeur.e.s attitré.e.s.
+Ensuite, les équipes de 4 à 6 étudiants sont déterminées selon un algorithme qui tient compte des sujets finalement approuvés, des intérêts des personnes inscrites dans le cours envers ces sujets, ainsi que de la disponibilité des membres du corps professoral attitrés.
 Il peut arriver qu'un projet n'ait pas suffisamment d'intérêt pour former une équipe complète, ou que plusieurs équipes travaillent indépendamment sur le même projet.
 
 ![Processus pour déterminer les équipes pour les projets de fin d'études](http://tiny.cc/pfelogti_proc_equpe_svg)
