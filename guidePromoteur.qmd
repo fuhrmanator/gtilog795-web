@@ -127,17 +127,21 @@ Pour réduire les risques de délais des PFE, il y a plusieurs outils disponible
 3. Entente de confidentialité (Projet Type II)[^EntenteTypeII] entre 1)\ l'ÉTS, 2)\ les étudiant.e.s et 3)\ la Compagnie, signée par les trois parties avec une intervention des professeur.e.s
 4. [Entente de cession de droits (entente Type III)][EntenteTypeIII] entre 1)\ les étudiant.e.s et 2)\ la Compagnie, rédigée par l'ÉTS.
 
-[^EntenteTypeII]: Pour accéder à l'entente de confidentialité (Type II), il faut avoir déjà en place un projet de recherche avec l'ÉTS. [Contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII].
+[^EntenteTypeII]: Pour accéder à l'entente de confidentialité (Type II), il faut avoir déjà en place _un projet de recherche avec l'ÉTS_. [Contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII].
 
 ::: {.callout-caution appearance="simple"}
 Si une Compagnie exige une entente de confidentialité ou de cession de droits, il y a des conséquences:
 
-- Puisque les étudiant.e.s (au moins 4 par équipe) sont libres de négocier individuellement les clauses des ententes, cela peut s'avérer complexe.
-Cette négociation peut retarder le démarrage, voire nécessiter l'annulation, du projet si elle n'aboutit pas.
-Pour minimiser ce risque, les étudiant.e.s sont informés de cette complexité lorsqu'un projet exige une entente.
-- L'ÉTS ne peut offrir aucun avis légal aux étudiant.e.s pour comprendre les clauses de ces ententes.
+- Puisque les membres de l'équipe (au moins 4) sont libres de négocier individuellement les clauses des ententes, cela peut s'avérer complexe.
+Cette négociation peut retarder le démarrage du projet. 
+Si ces négociations prennent trop de temps, cela peut **nécessiter l'affectation de l'équipe à un autre projet**.
+- Pour minimiser ce risque, les personnes inscrites au cours de PFE sont informées de cette complexité lorsqu'un projet exige une entente.
+La nature des ententes est indiquée dans la proposition de projet.
+Le promoteur accepte de ne pas modifier les ententes (p.ex. au démarrage du projet), puisque l'étudiant et l'étudiant affecté au projet aurait fait son choix de projet selon les conditions des ententes.
+- L'ÉTS ne peut offrir aucun avis légal aux personnes inscrites dans le PFE pour comprendre les clauses de ces ententes.
 C'est leur responsabilité de chercher un avis professionnel (légal) avant de signer. 
-- Les étudiant.e.s sont également libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre).
+- Les personnes inscrites dans le PFE sont également libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre), surtout quand il n'y a pas de récompense financière pour leur travail.
+Une proposition de projet avec trop de contraintes légales peut se trouver sans équipe.
 :::
 
 # Projet intéressant
