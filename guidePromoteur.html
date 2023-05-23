@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr-CA" xml:lang="fr-CA"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -78,25 +78,27 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Projets fin d’études (LOG et GTI)</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Processus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./guidePromoteur.html" aria-current="page">
+    <a class="nav-link active" href="./guidePromoteur.html" rel="" target="" aria-current="page">
  <span class="menu-text">Guide du Promoteur</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">À propos de ce site</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -135,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#rôles-des-trois-parties-prenantes" id="toc-rôles-des-trois-parties-prenantes" class="nav-link" data-scroll-target="#rôles-des-trois-parties-prenantes">Rôles des trois parties prenantes</a></li>
   <li><a href="#droits-et-responsabilités" id="toc-droits-et-responsabilités" class="nav-link" data-scroll-target="#droits-et-responsabilités">Droits et responsabilités</a></li>
-  <li><a href="#les-ententes" id="toc-les-ententes" class="nav-link" data-scroll-target="#les-ententes">Les ententes</a></li>
+  <li><a href="#entente-de-partage-de-logiciel-libre" id="toc-entente-de-partage-de-logiciel-libre" class="nav-link" data-scroll-target="#entente-de-partage-de-logiciel-libre">Entente de partage de logiciel libre</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#projet-intéressant" id="toc-projet-intéressant" class="nav-link" data-scroll-target="#projet-intéressant">Projet intéressant</a></li>
@@ -168,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 <li>un trimestre 15 semaines</li>
 <li>au moins 3 itérations de 2 à 3 semaines</li>
 </ul>
-<div class="callout-caution callout callout-style-simple">
+<div class="callout callout-style-simple callout-caution">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -184,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="conception" class="level2">
 <h2 class="anchored" data-anchor-id="conception">Conception</h2>
 <p>La conception est une dimension primordiale d’un PFE. Elle a une définition précise dans une école d’ingénieurs comme l’ÉTS, dont ses programmes de premier cycles sont agréés.</p>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -208,13 +210,18 @@ ul.task-list li input[type="checkbox"] {
 <p>Le PFE est <strong>un cours universitaire pour les personnes en fin de programme de premier cycle</strong>. La proposition de projet doit tenir compte de ce contexte. C’est différent d’un contrat de recherche ou d’un stage industriel.</p>
 <section id="rôles-des-trois-parties-prenantes" class="level3">
 <h3 class="anchored" data-anchor-id="rôles-des-trois-parties-prenantes">Rôles des trois parties prenantes</h3>
-<p>Il y a trois parties prenantes dans un PFE: la communauté étudiante inscrite dans le cours, le corps professoral affecté aux projets et les promoteurs (qui sont parfois des Compagnies).</p>
+<p>Il y a trois parties prenantes dans un PFE:</p>
+<ol type="1">
+<li>la communauté étudiante inscrite dans le cours,</li>
+<li>le corps professoral affecté aux projets et</li>
+<li>le Promoteur du projet (qui est parfois une Compagnie).</li>
+</ol>
 <p><strong>La communauté étudiante de l’ÉTS inscrite dans le PFE</strong></p>
 <ul>
-<li>L’apprentissage des notions apprises durant le baccalauréat grâce à une application pratique qui va conduire à la rédaction d’un rapport technique et une présentation devant un public</li>
-<li>Dans le cas des PFE en LOG et en GTI, des logiciels sont presque toujours créés</li>
+<li>L’apprentissage des notions apprises durant le baccalauréat grâce à une application pratique qui va conduire à la rédaction d’un rapport technique et une présentation devant un public.</li>
+<li>Dans le cas des PFE en LOG et en GTI, des logiciels sont presque toujours créés.</li>
 </ul>
-<div class="callout-caution callout callout-style-simple">
+<div class="callout callout-style-simple callout-caution">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -226,10 +233,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><strong>Le corps professoral de l’ÉTS affecté au projet</strong></p>
 <ul>
-<li>L’encadrement (coaching) de l’équipe dans un <strong>contexte de formation universitaire</strong></li>
-<li>L’évaluation de l’équipe dans le contexte du cours de PFE (selon le plan de cours)</li>
+<li>L’encadrement (coaching) de l’équipe dans un <strong>contexte de formation universitaire</strong>.</li>
+<li>L’évaluation de l’équipe dans le contexte du cours de PFE (selon le plan de cours).</li>
 </ul>
-<div class="callout-caution callout callout-style-simple">
+<div class="callout callout-style-simple callout-caution">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -241,16 +248,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><strong>Le Promoteur (Compagnie)</strong></p>
 <ul>
-<li>Le mentorat et le transfert de connaissances dans un <strong>contexte de formation universitaire</strong></li>
+<li>Le mentorat et le transfert de connaissances dans un <strong>contexte de formation universitaire</strong>.</li>
 <li>«&nbsp;Expert du domaine&nbsp;» ou <a href="https://scrumdictionary.com/term/subject-matter-expert-sme/">«&nbsp;Subject Matter Expert&nbsp;» (SME)</a> en méthodologie Scrum.</li>
 </ul>
-<div class="callout-caution callout callout-style-simple">
+<div class="callout callout-style-simple callout-caution">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Il faut <strong>éviter le transfert de l’information confidentielle</strong>, car cela complique le contexte universitaire et crée les risques pour démarrer un projet surtout avec plusieurs étudiants.</p>
+<p>Il faut <strong>éviter le transfert de l’information confidentielle</strong>, car cela complique le contexte universitaire. L’ÉTS n’a pas de ressources disponibles pour cette gestion dans le cadre des cours, contrairement aux activités de recherche subventionnée.</p>
 </div>
 </div>
 </div>
@@ -259,21 +266,13 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="droits-et-responsabilités">Droits et responsabilités</h3>
 <p><strong>Propriété intellectuelle (PI):</strong> Le terme «&nbsp;propriété intellectuelle&nbsp;» désigne les œuvres de l’esprit : inventions; œuvres littéraires et artistiques; dessins et modèles; et emblèmes, noms et images utilisées dans le commerce.</p>
 <p>La PI est (ou peut être) protégée par la loi, par exemple au moyen de brevets, de droits d’auteur et d’enregistrements de marques de commerce, qui permettent aux créateurs de tirer une reconnaissance ou un avantage financier de leurs inventions ou créations.</p>
-<div class="callout-tip callout callout-style-simple">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Il y a trois critères pour obtenir un brevet :</p>
-<ul>
-<li>Nouveauté</li>
-<li>Utilité (reduction to practice)</li>
-<li>Non-évidence (pour une personne familière avec l’art)</li>
-</ul>
-</div>
-</div>
-</div>
+<!-- ::: {.callout-tip appearance="simple"}
+Il y a trois critères pour obtenir un brevet :
+
+- Nouveauté
+- Utilité (reduction to practice)
+- Non-évidence (pour une personne familière avec l'art)
+::: -->
 <p>Selon le <a href="https://www.etsmtl.ca/docs/etudes/premier-cycle/documents/reglements-etudes-1er-cycle">«&nbsp;Règlement des études de premier cycle&nbsp;»</a> de l’ÉTS:</p>
 <ul>
 <li>L’étudiant ou l’étudiante est propriétaire de ses œuvres (la propriété morale), cf.&nbsp;Section 7.8.3</li>
@@ -281,53 +280,89 @@ ul.task-list li input[type="checkbox"] {
 <li>L’École n’est pas responsable d’une utilisation commerciale ou industrielle des travaux produits par l’étudiant ou par l’étudiante, cf.&nbsp;Section 7.8.4</li>
 </ul>
 </section>
-<section id="les-ententes" class="level3">
-<h3 class="anchored" data-anchor-id="les-ententes">Les ententes</h3>
-<p>Bien qu’un PFE évite normalement le transfert de l’information confidentielle, il peut s’avérer nécessaire de faire une entente pour les raisons suivantes:</p>
-<ol type="1">
-<li>Des informations confidentielles et stratégiques peuvent être échangées par la Compagnie (ou par le corps professoral).</li>
-<li>Afin de pouvoir bien protéger une Propriété intellectuelle, une Compagnie doit s’assurer d’obtenir «&nbsp;une chaîne de titres clairs&nbsp;».</li>
-<li>Des investissements financiers importants sont effectués par les Compagnies et ils veulent les protéger.</li>
-</ol>
-<p>Pour réduire les risques de délais des PFE, il y a plusieurs outils disponibles:</p>
-<ol type="1">
-<li><a href="https://drive.google.com/file/d/10CFRZoKVYXmSHSxwNTzzFozSTJO-GgV9/view" title="Document explicatif – projet de fin d'études (PFE)">Document explicatif pour les PFE</a></li>
-<li><a href="https://docs.google.com/document/d/10AXS9zCFBchrkdGhY1sOMbVXTv8E3T9f/edit?usp=sharing&amp;ouid=100642354018215358554&amp;rtpof=true&amp;sd=true" title="Entente de confidentialité étudiants - Compagnie">Entente de confidentialité (Projet Type I)</a> entre 1)&nbsp;les membres étudiants de l’équipe et 2)&nbsp;la Compagnie</li>
-<li>Entente de confidentialité (Projet Type II)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> entre 1)&nbsp;l’ÉTS, 2)&nbsp;les membres étudiants et 3)&nbsp;la Compagnie, signée par les trois parties avec une intervention du corps professoral</li>
-<li><a href="https://docs.google.com/document/d/109Ctegz_6huRqxybxu9atALjgmwG5yCm/edit?usp=sharing&amp;ouid=100642354018215358554&amp;rtpof=true&amp;sd=true" title="Convention de cession de droits de propriété intellectuelle projet de fin d'études (PFE) Type III">Entente de cession de droits (entente Type III)</a> entre 1)&nbsp;les membres étudiants et 2)&nbsp;la Compagnie, rédigée par l’ÉTS.</li>
-</ol>
-<div class="callout-caution callout callout-style-simple">
-<div class="callout-body d-flex">
+<section id="entente-de-partage-de-logiciel-libre" class="level3">
+<h3 class="anchored" data-anchor-id="entente-de-partage-de-logiciel-libre">Entente de partage de logiciel libre</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Si une Compagnie exige une entente de confidentialité ou de cession de droits, il y a des conséquences:</p>
+<div class="callout-title-container flex-fill">
+Avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>À partir de la soumission des projets pour l’automne 2023, le Département de génie logiciel et des TI <strong>n’accepte plus de proposition de PFE avec une entente de confidentialité ou de cession des droits de PI</strong>.</p>
+</div>
+</div>
+<p>Le seul cas où une entente peut exister est lorsqu’un Promoteur veut proposer un projet avec un <strong>partage des droits en logiciel libre</strong>, en spécifiant cette information sur le formulaire de proposition. Les étudiants et étudiantes sont toujours libres de choisir un tel projet et leur code source leur appartiendra toujours, tandis qu’une license de logiciel libre permettra au Promoteur (et d’autres entités) un accès au code source selon la license choisie.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Cliquez ici pour voir des ressources pour choisir une license
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <ul>
-<li>Puisque les membres de l’équipe (au moins 4) sont libres de négocier individuellement les clauses des ententes, cela peut s’avérer complexe. Cette négociation peut retarder le démarrage du projet. Si ces négociations prennent trop de temps, cela peut <strong>nécessiter l’affectation de l’équipe à un autre projet</strong>.</li>
-<li>Pour minimiser ce risque, les personnes inscrites au cours de PFE sont informées de cette complexité lorsqu’un projet exige une entente. La nature des ententes est indiquée dans la proposition de projet. Le promoteur accepte de ne pas modifier les ententes (p.&nbsp;ex. au démarrage du projet), puisque les membres de l’équipe affectée au projet auraient fait leur choix de projet selon les conditions des ententes divulguées avec la proposition.</li>
-<li>L’ÉTS ne peut offrir aucun avis légal aux personnes inscrites dans le PFE pour comprendre les clauses de ces ententes. C’est leur responsabilité de chercher un avis professionnel (légal) avant de signer.</li>
-<li>Selon la clause 9.1 de l’entente de confidentialité de Type I, les personnes dans une équipe <strong>doivent soumettre leur rapport à l’entreprise 3 semaines avant le délai</strong>. Ces personnes ont effectivement moins de temps pour rédiger leur rapport comparé à un projet sans contrainte de confidentialité.</li>
-<li>Les personnes inscrites dans le PFE sont libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre), surtout quand il n’y a pas de récompense financière pour leur travail. Une proposition de projet avec trop de contraintes peut se trouver sans équipe.</li>
+<li><a href="https://choosealicense.com/"><em>Choose a license</em></a>: Ce site web propose un aperçu simplifié des licences open source populaires, en expliquant leurs caractéristiques clés, leurs restrictions et les cas d’utilisation recommandés. Il offre également un outil de choix de licence simple pour aider à affiner les options en fonction des besoins du projet.</li>
+<li><a href="https://opensource.org/"><em>Open Source Initiative</em> (OSI)</a>: L’Open Source Initiative (OSI) est une organisation renommée dédiée à la promotion et à la protection des logiciels open source. Leur site web fournit une liste complète des licences approuvées par l’OSI, ainsi que des descriptions détaillées et des directives pour chaque licence. Les étudiants et étudiantes peuvent explorer cette ressource pour acquérir une meilleure compréhension des différentes options de licences.</li>
+<li><a href="https://creativecommons.org/"><em>Creative Commons</em></a>: Bien qu’elle soit principalement axée sur la licence de contenu, les licences Creative Commons peuvent être pertinentes pour les projets impliquant des composants autres que des logiciels, tels que la documentation, les œuvres d’art ou le multimédia. Creative Commons propose une gamme de licences avec des autorisations et des restrictions variables, qui peuvent être utiles pour les projets ayant différents besoins en termes de partage et d’attribution.</li>
+<li><a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository"><em>GitHub’s License Chooser</em></a>: GitHub propose un outil de choix de licence dans le cadre de son processus de création de dépôt. Il présente une liste sélectionnée de licences open source et aide les utilisateurs à sélectionner une licence appropriée en fonction des besoins spécifiques de leur projet. Cet outil peut être particulièrement pratique pour les étudiants et étudiantes qui prévoient d’héberger leurs projets sur GitHub.</li>
+<li><a href="https://www.fsf.org/"><em>Free Software Foundation</em></a>: La <em>Free Software Foundation</em> (FSF) est une organisation axée sur la promotion et la défense du logiciel libre. Leur site web fournit des informations sur la licence publique générale GNU (GPL), l’une des licences open source les plus populaires. Les étudiants intéressés par les principes du logiciel libre peuvent explorer les ressources et les directives de la FSF.</li>
+<li>Conseils juridiques: Bien que les références ci-dessus puissent fournir des informations précieuses, il est important de noter que les décisions de licence peuvent avoir des implications juridiques. Pour les projets critiques ou si les étudiants ou les étudiantes ont des préoccupations juridiques spécifiques, il est recommandé de consulter des conseils juridiques de professionnels spécialisés dans les licences de logiciels et la propriété intellectuelle.</li>
 </ul>
 </div>
 </div>
 </div>
+<!-- Bien qu'un PFE évite normalement le transfert de l'information confidentielle, il peut s'avérer nécessaire de faire une entente pour les raisons suivantes: -->
+<!-- 1. Des informations confidentielles et stratégiques peuvent être échangées par la Compagnie (ou par le corps professoral). -->
+<!-- 1. Afin de pouvoir bien protéger une Propriété intellectuelle, une Compagnie doit s'assurer d'obtenir "une chaîne de titres clairs". -->
+<!-- 1. Des investissements financiers importants sont effectués par les Compagnies et ils veulent les protéger. -->
+<!-- Pour réduire les risques de délais des PFE, il y a plusieurs outils disponibles:
+
+1. [Document explicatif pour les PFE (2015)][DocumentExplicatif]
+2. [Entente de confidentialité (Projet Type I)][EntenteConfidentialité] entre 1)\ les membres étudiants de l'équipe et 2)\ la Compagnie
+3. Entente de confidentialité (Projet Type II)[^EntenteTypeII] entre 1)\ l'ÉTS, 2)\ les membres étudiants et 3)\ la Compagnie, signée par les trois parties avec une intervention du corps professoral
+4. [Entente de cession de droits (entente Type III)][EntenteTypeIII] entre 1)\ les membres étudiants et 2)\ la Compagnie, rédigée par l'ÉTS.
+
+[^EntenteTypeII]: Pour accéder à l'entente de confidentialité (Type II), il faut avoir déjà en place _un projet de recherche avec l'ÉTS_. [Contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII]. -->
+<!-- ::: {.callout-caution appearance="simple"}
+Si une Compagnie exige une entente de confidentialité ou de cession de droits, il y a des conséquences:
+
+- Puisque les membres de l'équipe (au moins 4) sont libres de négocier individuellement les clauses des ententes, cela peut s'avérer complexe.
+Cette négociation peut retarder le démarrage du projet. 
+Si ces négociations prennent trop de temps, cela peut **nécessiter l'affectation de l'équipe à un autre projet**.
+- Pour minimiser ce risque, les personnes inscrites au cours de PFE sont informées de cette complexité lorsqu'un projet exige une entente.
+La nature des ententes est indiquée dans la proposition de projet.
+Le promoteur accepte de ne pas modifier les ententes (p. ex. au démarrage du projet), puisque les membres de l'équipe affectée au projet auraient fait leur choix de projet selon les conditions des ententes divulguées avec la proposition.
+- L'ÉTS ne peut offrir aucun avis légal aux personnes inscrites dans le PFE pour comprendre les clauses de ces ententes.
+C'est leur responsabilité de chercher un avis professionnel (légal) avant de signer. 
+- Selon la clause 9.1 de l'entente de confidentialité de Type I, les personnes dans une équipe **doivent soumettre leur rapport à l'entreprise 3 semaines avant le délai**.
+Ces personnes ont effectivement moins de temps pour rédiger leur rapport comparé à un projet sans contrainte de confidentialité.
+- Les personnes inscrites dans le PFE sont libres de choisir leurs projets candidats et peuvent simplement éviter les projets ayant les ententes de confidentialité ou de cession de droits (de Type III ou autre), surtout quand il n'y a pas de récompense financière pour leur travail.
+Une proposition de projet avec trop de contraintes peut se trouver sans équipe.
+
+::: -->
 </section>
 </section>
 </section>
 <section id="projet-intéressant" class="level1">
 <h1>Projet intéressant</h1>
-<p>Chaque personne inscrite dans le PFE choisit un nombre limité de projets parmi les propositions, spécifiant un ordre de préférence. Souvent, il y a plus de propositions de projet que d’équipes, ce qui veut dire qu’un certain nombre de projets ne sont pas choisis. Un projet sans équipe pourrait être re-soumis au trimestre suivant.</p>
+<p>Chaque personne inscrite dans le PFE choisit un nombre limité de projets parmi les propositions, spécifiant un ordre de préférence. Souvent, il y a plus de propositions de projets que d’équipes disponibles, ce qui signifie qu’un certain nombre de projets ne sont pas acceptés faute d’intérêt suffisant. Un projet sans équipe pourrait être re-soumis au trimestre suivant.</p>
 <p>Alors, voici quelques stratégies pour faire une proposition intéressante:</p>
 <ul>
 <li>permettre une souplesse avec des solutions technologiques, p.&nbsp;ex. <em>front-end</em> moderne comme Angular ou React, plutôt que juste React.</li>
-<li>éviter une obligation sur une technologie niche (p.&nbsp;ex. Ruby on rails, Rust, etc.) - il n’est pas impossible que des étudiants s’y intéressent, mais il faut un minimum de 4 pour former une équipe.</li>
-<li>utiliser un langage vulgarisé pour l’étudiant et l’étudiante en dernière année dans un baccalauréat en ingénierie de génie logiciel et des technologies de l’information: si vous recyclez une description d’un projet provenant d’une demande de subvention (qui cherche à démontrer la complexité, la difficulté d’un problème) cela pourrait rendre le projet plus difficile à comprendre.</li>
-<li>mentionner la forme des spécifications, p.&nbsp;ex. le <em>récits utilisateurs (user stories)</em>, le cas échéant, car ça peut rendre plus concret le problème.</li>
-<li>mettre en évidence la valeur du projet pour la société, l’économie, la sécurité, l’environnement, etc.: un projet très orienté recherche fondamentale, même s’il utilise les technologies modernes, est souvent évité par la plupart des étudiants.</li>
+<li>éviter une obligation sur une technologie niche (p.&nbsp;ex. Ruby on rails, Rust, etc.) - il n’est pas impossible que des personnes s’y intéressent, mais il faut un minimum de quatre (4) étudiants ou étudiantes pour former une équipe pour un projet.</li>
+<li>utiliser un langage vulgarisé pour l’étudiant et l’étudiante en dernière année du baccalauréat en ingénierie de génie logiciel et des technologies de l’information.</li>
+<li>mentionner autant possible les détails sur les spécifications, p.&nbsp;ex. «&nbsp;parmi les <em>récits utilisateurs (user stories)</em>, il y a …&nbsp;», le cas échéant, car ça rend plus concret le problème.</li>
+<li>mettre en évidence la valeur du projet pour la société, l’économie, la sécurité, l’environnement, etc.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
 </ul>
-<p>Finalement, sachez que la personne inscrite dans le cours de projet fin d’études est souvent «&nbsp;réticente aux risques&nbsp;». Les risques comprennent les ententes de confidentialité et de cession de droits, les technologies niches, les problèmes flous ou trop orientés recherche, etc.</p>
+<p>Bref, la personne inscrite dans le cours de projet fin d’études est souvent «&nbsp;réticente aux risques&nbsp;». Les risques comprennent le partage du code source (bien que ce soit un faible risque), les technologies niches, mais surtout les problèmes flous ou trop orientés recherche, etc. Plus il y a de risques dans un projet, moins il sera populaire dans la communauté étudiante.</p>
 </section>
 <section id="soumettre-une-proposition" class="level1">
 <h1>Soumettre une proposition</h1>
@@ -341,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
 
 <ol>
 <li id="fn1"><p>Ce guide est une adaptation de la présentation «&nbsp;Ententes contractuelles pour vos projets de fin d’études&nbsp;» préparée par Jack-Éric Vandenbroucke dans le contexte des PFE en Génie mécanique à l’ÉTS.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Pour accéder à l’entente de confidentialité (Type II), il faut avoir déjà en place <em>un projet de recherche avec l’ÉTS</em>. <a href="mailto:christopher.fuhrman@etsmtl.ca?subject=PFE:%20Question%20pour%20projet%20Type%20II">Contacter le responsable des PFE au Département de génie logiciel et des TI</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Un projet très orienté recherche fondamentale, même s’il utilise les technologies modernes, est souvent évité par la plupart des étudiants et étudiantes.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -371,9 +406,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -438,6 +487,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -481,7 +616,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -494,7 +629,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><a href="https://www.etsmtl.ca/">École de technologie supérieure</a>, <a href="https://www.etsmtl.ca/ets/gouvernance/decanats-et-departements/departement-genie-logiciel-ti">Département de génie logiciel et des technologies de l’information</a></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center"><a href="https://www.etsmtl.ca/">École de technologie supérieure</a>, <a href="https://www.etsmtl.ca/ets/gouvernance/decanats-et-departements/departement-genie-logiciel-ti">Département de génie logiciel et des technologies de l’information</a></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

@@ -1,8 +1,0 @@
----
-title: "À propos de ce site"
----
-
-Ce site web a été généré par Quarto.
-
-Pour en savoir plus sur les sites Web de Quarto, visitez <https://quarto.org/docs/websites>.
-
