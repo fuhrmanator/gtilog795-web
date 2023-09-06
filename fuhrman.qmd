@@ -1,0 +1,22 @@
+---
+title: "Directives pour étudiants et étudiantes de PFE"
+---
+
+::: callout-important
+Voici des points à réaliser *avant* de planifier la première rencontre avec C. Fuhrman afin que ce soit efficace.
+:::
+
+-   Vous devez avoir lu et compris **le plan de cours**. 😉 C. Fuhrman pourra répondre à toutes vos questions pendant la rencontre.
+-   Vous devez avoir déterminé **la personne qui jouera le rôle de chef d'équipe** pour que les choses avancent. Le rôle est expliqué dans le plan de cours.
+-   Vous devez savoir **les disponibilités générales pour votre équipe**. Il faudra faire des démonstrations de solution à la fin de chaque itération. **Une démonstration aura lieu pendant les heures de travail.**
+    -   Le promoteur du projet ainsi que C. Fuhrman seront présents durant ces démonstrations pour donner une rétroaction sur la solution.
+    -   Le chef de l'équipe planifie les dates des démonstrations dans le contexte des itérations et **invite le promoteur et C. Fuhrman** par le biais d'un agenda électronique (Outlook, Google, etc.).
+    -   **Les rencontres** avec C. Fuhrman ou le promoteur **ne peuvent avoir lieu le soir, durant la pause de midi ou durant la fin de semaine.** 👪
+    -   Vous trouverez **les disponibilités de C. Fuhrman** sur sa page web: <https://profs.etsmtl.ca/cfuhrman>. Consultez-les avant de lui proposer une rencontre spontanée.
+-   Vous devez **créer un espace de collaboration** pour votre équipe.
+    -   C. Fuhrman **recommande l'utilisation de Teams**, car le service informatique **(GUS) peut vous en créer un pour votre PFE**.
+    -   En plus, il y a un espace Office relié au Teams et c'est pratique pour le partage de documents (rapports, etc.).
+    -   Vous pouvez aussi utiliser Slack ou Discord (pour clavardage) et Google Drive (sachez que le service informatique de l'ÉTS veut se débarasser du service Google sur le domaine etsmtl.net).
+-   Puisque la plupart des projets encadrés par C. Fuhrman impliquent du développement de logiciels libres, il faudrait **avoir un compte sur GitHub**. C. Fuhrman recommande de configurer votre compte sur GitHub avec votre adresse courriel de l'ÉTS. Cela vous permettra d'avoir des fonctionnalités supplémentaires.
+-   Il faut que votre équipe ait discuté de la license libre à utiliser pour votre projet. **C. Fuhrman recommande d'utiliser une license libre comme la license MIT**.
+-   Il vaut mieux avoir commencé le **contrat d'encadrement disponible sur Moodle**. Suivez un des exemples disponibles également sur Moodle.
