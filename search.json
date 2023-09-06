@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "À propos de ce site",
+    "section": "",
+    "text": "École de technologie supérieure, Département de génie logiciel et des technologies de l’information\nCe site web a été généré par Quarto.\nPour en savoir plus sur les sites Web de Quarto, visitez https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "fuhrman.html",
+    "href": "fuhrman.html",
+    "title": "Directives pour étudiants et étudiantes de PFE",
+    "section": "",
+    "text": "Important\n\n\n\nVoici des points à réaliser avant de planifier la première rencontre avec C. Fuhrman afin que ce soit efficace.\n\n\n\nVous devez avoir lu et compris le plan de cours. 😉 C. Fuhrman pourra répondre à toutes vos questions pendant la rencontre.\nVous devez avoir déterminé la personne qui jouera le rôle de chef d’équipe pour que les choses avancent. Le rôle est expliqué dans le plan de cours.\nVous devez savoir les disponibilités générales pour votre équipe. Il faudra faire des démonstrations de solution à la fin de chaque itération. Une démonstration aura lieu pendant les heures de travail.\n\nLe promoteur du projet ainsi que C. Fuhrman seront présents durant ces démonstrations pour donner une rétroaction sur la solution.\nLe chef de l’équipe planifie les dates des démonstrations dans le contexte des itérations et invite le promoteur et C. Fuhrman par le biais d’un agenda électronique (Outlook, Google, etc.).\nLes rencontres avec C. Fuhrman ou le promoteur ne peuvent avoir lieu le soir, durant la pause de midi ou durant la fin de semaine. 👪\nVous trouverez les disponibilités de C. Fuhrman sur sa page web: https://profs.etsmtl.ca/cfuhrman. Consultez-les avant de lui proposer une rencontre spontanée.\n\nVous devez créer un espace de collaboration pour votre équipe.\n\nC. Fuhrman recommande l’utilisation de Teams, car le service informatique (GUS) peut vous en créer un pour votre PFE.\nEn plus, il y a un espace Office relié au Teams et c’est pratique pour le partage de documents (rapports, etc.).\nVous pouvez aussi utiliser Slack ou Discord (pour clavardage) et Google Drive (sachez que le service informatique de l’ÉTS veut se débarasser du service Google sur le domaine etsmtl.net).\n\nPuisque la plupart des projets encadrés par C. Fuhrman impliquent du développement de logiciels libres, il faudrait avoir un compte sur GitHub. C. Fuhrman recommande de configurer votre compte sur GitHub avec votre adresse courriel de l’ÉTS. Cela vous permettra d’avoir des fonctionnalités supplémentaires.\nIl faut que votre équipe ait discuté de la license libre à utiliser pour votre projet. C. Fuhrman recommande d’utiliser une license libre comme la license MIT.\nIl vaut mieux avoir commencé le contrat d’encadrement disponible sur Moodle. Suivez un des exemples disponibles également sur Moodle."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Projets de fin d’études",
@@ -40,12 +54,5 @@
     "title": "Guide du Promoteur",
     "section": "Notes de bas de page",
     "text": "Notes de bas de page\n\n\nCe guide est une adaptation de la présentation « Ententes contractuelles pour vos projets de fin d’études » préparée par Jack-Éric Vandenbroucke dans le contexte des PFE en Génie mécanique à l’ÉTS.↩︎\nPour accéder à l’entente de confidentialité (Type II), il faut avoir déjà en place un projet de recherche avec l’ÉTS. Contacter le responsable des PFE au Département de génie logiciel et des TI.↩︎\nUn projet très orienté recherche fondamentale, même s’il utilise les technologies modernes, est souvent évité par la plupart des étudiants et étudiantes.↩︎"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "À propos de ce site",
-    "section": "",
-    "text": "École de technologie supérieure, Département de génie logiciel et des technologies de l’information\nCe site web a été généré par Quarto.\nPour en savoir plus sur les sites Web de Quarto, visitez https://quarto.org/docs/websites."
   }
 ]
