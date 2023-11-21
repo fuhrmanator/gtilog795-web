@@ -20,7 +20,8 @@ Il peut s'agir d'une compagnie, d'un membre du corps professoral, d'un club étu
 
 ::: {.callout-warning}
 Si vous êtes un étudiant ou une étudiante et vous avez une idée de projet, **il faudra d'abord trouver un promoteur (selon la définition plus haut)**, car c'est lui qui apportera des contraintes réalistes pour faire un bon sujet.
-**Une proposition soumise sans promoteur sera rejetée.**
+C'est lui qui doit rédiger et soumettre la proposition, car il s'engage à jouer le rôle du promoteur dans le projet.
+**Une proposition soumise par une personne de la communauté étudiante sera rejetée.**
 ::: 
 
 Tout projet de fin d'études (PFE) doit avoir été proposé par un promoteur et avoir été approuvé par le Département de génie logiciel et des TI.
