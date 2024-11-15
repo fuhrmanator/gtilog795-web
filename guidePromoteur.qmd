@@ -91,6 +91,15 @@ Les droits de PI du corps professoral de l'ÉTS appartiennent à l'ÉTS.
 
 - Le mentorat et le transfert de connaissances dans un **contexte de formation universitaire**.
 - "Expert du domaine" ou ["Subject Matter Expert" (SME)](https://scrumdictionary.com/term/subject-matter-expert-sme/) en méthodologie Scrum.
+  - Répondre aux questions de la part de la communauté étudiante sur le domaine d'affaires, les besoins des utilisateurs, etc.
+  - Évaluer les solutions proposées par l'équipe à chaque itération et donner des conseils sur la direction à prendre.
+
+::: {.callout-warning appearance="simple"}
+Le rôle du promoteur ne peut pas être pris par une étudiante ou un étudiant inscrit dans le cours, car c'est un conflit d'intérêts, surtout lorsqu'il s'agit d'évaluer le travail réalisé pour le promoteur.
+
+- Si un promoteur propose des personnes de la communauté étudiante qui sont (ou qui ont été) des employées du promoteur, c'est un conflit d'intérêts potentiel et le promoteur doit l'indiquer dans la proposition pour la transparence. Il ne faut pas que les tâches d'évaluation du travail réalisé pour le promoteur soient confiées à ces personnes.
+- Lorsqu'il s'agit d'un projet proposé par un club étudiant, il faut s'assurer que le rôle du promoteur est pris par une personne du club _qui n'est pas inscrite dans le cours_, pour la même raison que promoteur doit évaluer le travail réalisé. 
+:::
 
 ::: {.callout-caution appearance="simple"}
 Il faut **éviter le transfert de l'information confidentielle**, car cela complique le contexte universitaire. L'ÉTS n'a pas de ressources disponibles pour cette gestion dans le cadre des cours, contrairement aux activités de recherche subventionnée. 
@@ -133,6 +142,19 @@ Pour réduire les risques de délais des PFE, il y a plusieurs outils disponible
 
 [^EntenteTypeII]: Pour accéder à l'entente de confidentialité (Type II), il faut avoir déjà en place _un projet de recherche avec l'ÉTS_. [Contacter le responsable des PFE au Département de génie logiciel et des TI][ContacterResponsableProjetTypeII].
 
+### Logiciels libres et open source
+
+Il est possible de faire des projets de logiciels libres ou open source dans le cadre des PFE.
+C'est une solution intéressante, car cela permet à la communauté étudiante de garder la propriété morale de leurs œuvres et de contribuer à la communauté.
+Le promoteur peut aussi bénéficier de cette contribution, car il peut utiliser le logiciel libre ou open source dans ses propres projets, selon les conditions de la licence choisie.
+Le choix est ultimement celui de l'équipe, mais le promoteur peut influencer ce choix (il y a une option pour Open Source dans le formulaire de soumission à propos de la cession des droits).
+
+**Il est recommandé au Promoteur de bien suivre la mise en place de la licence choisie et de bien comprendre les implications de la licence pour son propre usage.**
+Le fait de mettre le code source du PFE sur un référentiel public (GitHub, GitLab, etc.) n'est pas suffisant pour en faire un logiciel libre ou open source.
+S'il n'y a pas de licence, il est possible que le code source ne soit pas réutilisable selon la loi.
+Le référentiel doit spécifier une licence qui permette la réutilisation du code source par d'autres personnes.
+GitHub propose une documentation pour la [Gestion des licences d'un référentiel](https://docs.github.com/fr/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
 ::: {.callout-caution appearance="simple"}
 Si une Compagnie exige une entente de confidentialité ou de cession de droits, il y a des conséquences:
 
@@ -174,6 +196,12 @@ Plus il y a de risques apparents dans un projet, moins il sera populaire dans la
 # Soumettre une proposition
 
 Pour soumettre une proposition de projet, utilisez [ce formulaire](http://tiny.cc/prop-pfe-logti).
+
+# Projets reconduits
+
+Si vous avez un projet qui a été réalisé par une équipe de PFE et que vous souhaitez le proposer à nouveau, il est possible de le faire.
+Il est recommandé de mentionner dans la proposition que le projet a déjà été réalisé et de donner des détails sur les améliorations ou les nouvelles fonctionnalités à ajouter.
+Lorsqu'il s'agit d'un projet où il y a eu une entente pour la cession de droits par logiciels libres ou open source, il est fortement recommandé de fournir dans la description du projet l'URL du référentiel de code (sur GitHub, GitLab, etc.) et de spécifier la licence utilisée.
 
 [DocumentExplicatif]: https://drive.google.com/file/d/10CFRZoKVYXmSHSxwNTzzFozSTJO-GgV9/view "Document explicatif – projet de fin d'études (PFE)"
 [EntenteConfidentialité]: https://docs.google.com/document/d/10AXS9zCFBchrkdGhY1sOMbVXTv8E3T9f/edit?usp=sharing&ouid=100642354018215358554&rtpof=true&sd=true "Entente de confidentialité étudiants - Compagnie"
