@@ -95,10 +95,13 @@ Les droits de PI du corps professoral de l'ÉTS appartiennent à l'ÉTS.
   - Évaluer les solutions proposées par l'équipe à chaque itération et donner des conseils sur la direction à prendre.
 
 ::: {.callout-warning appearance="simple"}
-Le rôle du promoteur ne peut pas être pris par une étudiante ou un étudiant inscrit dans le cours, car c'est un conflit d'intérêts, surtout lorsqu'il s'agit d'évaluer le travail réalisé pour le promoteur.
+Le rôle du promoteur ne peut pas être pris par une étudiante ou un étudiant inscrit dans le cours, car c'est un conflit d'intérêts.
+Il est difficile pour cette personne d'évaluer le travail que son équipe a réalisé.
+Voici quelques cas particuliers à considérer:
 
-- Si un promoteur propose des personnes de la communauté étudiante qui sont (ou qui ont été) des employées du promoteur, c'est un conflit d'intérêts potentiel et le promoteur doit l'indiquer dans la proposition pour la transparence. Il ne faut pas que les tâches d'évaluation du travail réalisé pour le promoteur soient confiées à ces personnes.
-- Lorsqu'il s'agit d'un projet proposé par un club étudiant, il faut s'assurer que le rôle du promoteur est pris par une personne du club _qui n'est pas inscrite dans le cours_, pour la même raison que promoteur doit évaluer le travail réalisé. 
+- Si un promoteur propose des personnes de la communauté étudiante qui sont (ou qui ont été) des employées du promoteur, c'est un conflit d'intérêts et le promoteur doit l'indiquer dans la proposition pour la transparence. Il ne faut pas que les tâches d'évaluation du travail réalisé pour le promoteur à la fin de chaque itération soient confiées à ces personnes. Le promoteur doit proposer une personne qui n'est pas inscrite dans le cours pour ce rôle. 
+- Lorsqu'il s'agit d'un projet proposé par un club étudiant, il faut s'assurer que le rôle du promoteur est pris par une personne du club _qui n'est pas inscrite dans le cours_.
+Cette personne devra faire la soumission de la proposition et elle devra évaluer objectivement le projet à la fin de chaque itération.
 :::
 
 ::: {.callout-caution appearance="simple"}
