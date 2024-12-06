@@ -5,7 +5,7 @@ title: Offres d'emploi
 website:
     open-graph: true
 title-block-banner: false
-image: https://raw.githubusercontent.com/ets-cfuhrman-pfe/EvalueTonSavoir/main/client/public/logo.png
+image: images/EvalueTonSavoirTeacher.png
 ---
 
 ## Poste de développement Fullstack pour le projet ÉvalueTonSavoir
