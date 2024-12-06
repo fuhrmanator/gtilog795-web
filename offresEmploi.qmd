@@ -4,9 +4,9 @@ navbar: false
 title: Offres d'emploi
 website:
   open-graph: true
-  site-url: "https://fuhrmanator.github.io/gtilog795-web"
+#   site-url: "https://fuhrmanator.github.io/gtilog795-web"
 title-block-banner: false
-image: "/images/EvalueTonSavoirTeacher.png"
+image: "https://raw.githubusercontent.com/fuhrmanator/gtilog795-web/main/images/EvalueTonSavoirTeacher.png"
 ---
 
 ## Poste de développement Fullstack pour le projet ÉvalueTonSavoir
