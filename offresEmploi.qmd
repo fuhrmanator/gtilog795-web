@@ -1,0 +1,27 @@
+# Offres d'emploi
+
+## Poste de développement Fullstack pour le projet ÉvalueTonSavoir
+
+Dans le cadre d'un projet [PSIRE Enseignement](https://prof-ets.etsmtl.ca/programme-de-support-institutionnel-a-la-recherche-et-a-l-enseignement-psire-volet-enseignement-2024-2025/) subventionné pour l'année en cours, nous recherchons une personne pour un poste de développement Fullstack (React, ExpressJS, MongoDB, Docker) pour contribuer au développement d'**ÉvalueTonSavoir**, un outil de gestion de questionnaires en ligne.  
+![logo évaluetonsavoir](https://raw.githubusercontent.com/ets-cfuhrman-pfe/EvalueTonSavoir/main/client/public/logo.png)
+
+Un prototype est déjà déployé en interne à l'ÉTS : <https://evalsa.etsmtl.ca> (l'accès au VPN est requis).
+Le projet, en cours de développement (code source disponible sur [GitHub](https://github.com/ets-cfuhrman-pfe/EvalueTonSavoir)), nécessite une personne motivée pour finaliser et optimiser l'application.
+
+Voici les tâches à réaliser :
+
+- Développement de nouvelles fonctionnalités  
+- Correction de bogues  
+- Étoffer les tests unitaires et d'intégration  
+- Améliorer la qualité du code
+- Améliorer l'expérience utilisateur (UX)  
+- Améliorer la sécurité de l'application  
+
+Il faudra collaborer avec une équipe de finissant.e.s (PFE) en génie logiciel pour la réalisation du projet. 
+
+Le taux horaire est de **25$/h** (variable, selon l'expérience), et le nombre d'heures par semaine est au minimum **20**.
+Un espace de travail sera fourni à l'ÉTS pour le travail, car une présence (surtout au début) sera nécessaire.
+
+Les personnes sérieuses et intéressées par le poste peuvent envoyer leur CV à [Christopher Fuhrman](mailto:christopher.fuhrman@etsmtl.ca).
+Un dépôt GitHub avec des projets personnels ou des contributions à des projets open source est un atout.
+Le projet est encadré par le professeur **Christopher Fuhrman**, et les promoteurs du projet sont la professeure **Geneviève Savard** et le professeur **Jean-Michel Lemay**.
