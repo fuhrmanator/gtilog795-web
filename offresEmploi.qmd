@@ -11,7 +11,7 @@ image: "https://raw.githubusercontent.com/fuhrmanator/gtilog795-web/main/images/
 
 ## Poste de développement Fullstack pour le projet ÉvalueTonSavoir
 
-Dans le cadre d'un projet [PSIRE Enseignement](https://prof-ets.etsmtl.ca/programme-de-support-institutionnel-a-la-recherche-et-a-l-enseignement-psire-volet-enseignement-2024-2025/) subventionné pour l'année en cours, nous recherchons une personne pour un poste de développement Fullstack (React, ExpressJS, MongoDB, Docker) pour contribuer au développement d'**ÉvalueTonSavoir**, un outil de gestion de questionnaires en ligne.  
+Dans le cadre d'un projet [PSIRE Enseignement](https://prof-ets.etsmtl.ca/programme-de-support-institutionnel-a-la-recherche-et-a-lenseignement-psire-volet-enseignement-2024-2025/) subventionné pour l'année en cours, nous recherchons une personne pour un poste de développement Fullstack (React, ExpressJS, MongoDB, Docker) pour contribuer au développement d'**ÉvalueTonSavoir**, un outil de gestion de questionnaires en ligne.  
 ![logo évaluetonsavoir](https://raw.githubusercontent.com/ets-cfuhrman-pfe/EvalueTonSavoir/main/client/public/logo.png)
 
 Un prototype est déjà déployé en interne à l'ÉTS : <https://evalsa.etsmtl.ca> (l'accès au VPN est requis).
