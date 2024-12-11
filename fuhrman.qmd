@@ -20,41 +20,89 @@ title: "Directives pour étudiants et étudiantes de PFE"
 -   Tout PFE ayant une licence libre doit être **hébergé sur GitHub et la licence doit être dans le dépôt**. C. Fuhrman recommande de créer un dépôt pour votre projet sur GitHub dès que possible. **C. Fuhrman refusera de corriger votre rapport si la license n'est pas dans le dépôt.**
 -   Il vaut mieux avoir commencé le **contrat d'encadrement disponible sur Moodle**. Suivez un des exemples disponibles également sur Moodle.
 
+# Conseils pour la présentation
+
+-   Organisez votre présentation avec un aperçu "plan" (*outline* en anglais) avant d'ajouter les images, etc.
+
+-   Pour la partie introduction (et contexte), **vulgarisez**!
+    Vous avez travaillé toute la session sur votre projet et vous le comprenez bien.
+    Ce n'est pas le cas pour votre publique.
+    Pour garder l'attention de votre publique, il faut qu'il comprenne bien le problème de votre PFE.
+    Vous pouvez revenir à l'énoncé de la proposition (sur le site Moodle) si vous avez besoin d'inspiration, car normalement le problème du projet vous a été expliqué dans ce texte-là.
+
+-   Considérez [le logiciel open-source Quarto pour faire votre présentation](https://quarto.org/docs/gallery/#presentations) (écrite en markdown).
+    Je l'utilise pour faire toutes mes présentations en classe, le manuel de LOG210 et même ce site web de conseils.
+
+## Aspects visuels
+
+-   Utiliser un gabarit avec les polices lisibles à l'écran dans une salle de classe.
+    Malheureusement, beaucoup de gabarits sont conçus (je crois) pour les présentations en ligne, où le publique est proche de l'écran.
+    Vous devez faire la présentation dans une salle de classe.
+    Alors, voici mes conseils pour les polices:
+
+    -   Titres et en-têtes: 32-44 points (ou plus).
+
+    -   Text principal: 24-28 points.
+
+    -   Sous-titres ou annotations: 18-20 points.
+
+-   Pour les captures d'écran, utiliser le zoom du navigateur pour grossir le texte si possible AVANT de faire la capture d'écran.
+
+-   Si vous avez des graphes ou d'autres visualisations, sachez qu'une police plus petite que 20 points ne sera pas très lisible.
+
+-   Ne pas utiliser "dark mode" pour les captures d'écran ou pour afficher du code source; ça s'affiche mal sur les projecteurs.
+
 # Conseils pour la rédaction du rapport
 
+Le rapport vaut beaucoup de points, car votre bon travail de PFE sera rayonné par ce document.
+
 -   Éviter le plagiat [Cours : ATE800 Intégrité intellectuelle : un savoir-être et un savoir-faire (HIV2016)](https://accros.etsmtl.ca/Rapports/atelier/index.html)
+
 -   Si vous pensez utiliser un SIAG (Systèmes d'Intelligence Artificielle Générative, comme ChatGPT ou Copilot) pour aider avec la rédaction :
+
     -   Les informations que vous donnez au SIAG sont souvent réutilisées par l'entreprise (OpenAI, Microsoft, etc.) offrant le service (vous leur donnez des informations)! **Ça peut donc aller à l'encontre de la confidentialité** (surtout pour les **projets où le promoteur est une entreprise**). Il vaut mieux en parler avec le promoteur avant d'utiliser le SIAG.
     -   On **doit** déclarer quels outils SIAG ont été utilisés lors de la rédaction (dans la section Avant-Propos). Sinon, c'est [une infraction de nature académique](https://www.etsmtl.ca/a-propos/gouvernance/secretariat-general/cadre-reglementaire/reglement-sur-les-infractions-de-nature-academique).
+
 -   Utiliser un outil comme Antidote pour éviter les fautes de français.
+
 -   Suivre les directives de rédaction sur [Accros](https://accros.etsmtl.ca/)
+
     -   [Guides et gabarits de rédaction](http://etsmtl.ca/Etudiants-actuels/Cycles-sup/Realisation-etudes/Guides-gabarits)
         -   Bibliographie, citations
         -   Mendeley, EndNote, Zotero, etc.
         -   Zotero fonctionne avec Word (application Windows) mais pas avec Office 365.
--   Pour le temps des verbes, il faut respecter les consignes du [Guide de rédaction d'un rapport technique](https://accros.etsmtl.ca/rapports/findetudes/rapport_fin_etudes/guide_redaction.pdf#page=16): 
 
-    > *1.7 Temps de verbe*  
-    >  
-    > *Dans un rapport technique, le choix des temps de verbe se résume à une seule règle quasi générale : **usage exclusif du présent et du passé composé***.  
+-   Pour le temps des verbes, il faut respecter les consignes du [Guide de rédaction d'un rapport technique](https://accros.etsmtl.ca/rapports/findetudes/rapport_fin_etudes/guide_redaction.pdf#page=16):
 
--   Pour la structure, il y a un bon résumé dans **1.3 Développement ou corps du travail** <https://www.etsmtl.ca/docs/etudes/Guides-gabarits/Documents/guide-redaction-projet-memoire-these#page=23>. Cependant, la structure est généralisée pour un rapport d'ingénierie. Il est normal d'avoir des questions à propos de comment appliquer cette structure à un sujet précis. **C'est important de communiquer avec moi tôt par rapport à la structure.**
-    -   Pour la partie « Revue de la littérature », on s'attend à ce qu'il y ait une présentation et un résumé des pratiques pertinentes à propos du sujet. Il n'est pas nécessaire de faire une revue exhaustive, mais il faut présenter des éléments importants dans le domaine (livres, articles de revue scientifique, normes, etc.). Généralement il s'agit d'au moins une dizaine de références.
+    > *1.7 Temps de verbe*
+    >
+    > *Dans un rapport technique, le choix des temps de verbe se résume à une seule règle quasi générale : **usage exclusif du présent et du passé composé***.
+
+-   Pour la structure, il y a un bon résumé dans **1.3 Développement ou corps du travail** <https://www.etsmtl.ca/docs/etudes/Guides-gabarits/Documents/guide-redaction-projet-memoire-these#page=23>.
+    Cependant, la structure est généralisée pour un rapport d'ingénierie.
+    Il est normal d'avoir des questions à propos de comment appliquer cette structure à un sujet précis.
+    **C'est important de communiquer avec moi tôt par rapport à la structure.**
+
+    -   Pour la partie "Revue de la littérature", on s'attend à ce qu'il y ait une présentation et un résumé des pratiques pertinentes à propos du sujet. Il n'est pas nécessaire de faire une revue exhaustive, mais il faut présenter des éléments importants dans le domaine (livres, articles de revue scientifique, normes, etc.). Généralement il s'agit d'au moins une dizaine de références.
     -   Souvent, la partie "Résultats" se présente sur plusieurs chapitres. Par exemple, dans une application Web, l'équipe a fait des contributions concernant les parties frontale, serveur, base de données, etc. Il vaut mieux les présenter dans des chapitres séparés.
--   Pour la conclusion, je vous recommande la structure suivante en **3 paragraphes**. Ceci est un extrait de la grille d'évaluation provenant du site [Accros](https://accros.etsmtl.ca/Rapports/index.asp):
 
-+-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
-| Critères                                                          | Sous-critère 1                                                               | Sous-critère 2          |
-+===================================================================+==============================================================================+=========================+
-| **1^er^ paragraphe: Résumé du développement**                     | Respect des objectifs                                                        | Respect des normes      |
-|                                                                   |                                                                              |                         |
-|                                                                   | -   Rappel succinct des éléments de la problématique, des solutions retenues | -   cohérence du propos |
-|                                                                   |                                                                              |                         |
-|                                                                   | -   Souci de guider le lecteur vers la prise de décision                     | -   logique des idées   |
-|                                                                   |                                                                              |                         |
-|                                                                   |                                                                              | -   pertinence du cas   |
-+-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
-| **2^e^ paragraphe: Rappel précis du mandat, de la problématique** | Démarche explicitée                                                          | Limites du projet       |
-+-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
-| **3^e^ paragraphe: ouverture**                                    | Guider le lecteur vers l'action à entreprendre                               |                         |
-+-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+-   Pour la conclusion, je vous recommande la structure suivante en **3 paragraphes**.
+    Ceci est un extrait de la grille d'évaluation provenant du site [Accros](https://accros.etsmtl.ca/Rapports/index.asp):
+
++------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+| Critères                                       | Sous-critère 1                                                               | Sous-critère 2          |
++================================================+==============================================================================+=========================+
+| **1^er^ paragraphe \                           | Respect des objectifs                                                        | Respect des normes      |
+| Résumé du développement**                      |                                                                              |                         |
+|                                                | -   Rappel succinct des éléments de la problématique, des solutions retenues | -   cohérence du propos |
+|                                                |                                                                              |                         |
+|                                                | -   Souci de guider le lecteur vers la prise de décision                     | -   logique des idées   |
+|                                                |                                                                              |                         |
+|                                                |                                                                              | -   pertinence du cas   |
++------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+| **2^e^ paragraphe \                            | Démarche explicitée                                                          | Limites du projet       |
+| Rappel précis du mandat, de la problématique** |                                                                              |                         |
++------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+| **3^e^ paragraphe\                             | Guider le lecteur vers l'action à entreprendre                               |                         |
+| ouverture**                                    |                                                                              |                         |
++------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
