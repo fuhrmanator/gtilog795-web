@@ -2,21 +2,59 @@
 title: "Directives pour étudiants et étudiantes de PFE"
 ---
 
-::: callout-important
-Voici des points à réaliser *avant* de planifier la première rencontre avec C. Fuhrman afin que ce soit efficace.
-:::
+# Avant la première rencontre
 
 -   Vous devez avoir lu et compris **le plan de cours**. 😉 C. Fuhrman pourra répondre à toutes vos questions pendant la rencontre.
 -   Vous devez avoir déterminé **la personne qui jouera le rôle de chef d'équipe** pour que les choses avancent. Le rôle est expliqué dans le plan de cours.
 -   Vous devez savoir **les disponibilités générales pour votre équipe**. Il faudra faire des démonstrations de solution à la fin de chaque itération. **Une démonstration aura lieu pendant les heures de travail.**
-    -   Le promoteur du projet ainsi que C. Fuhrman seront présents durant ces démonstrations pour donner une rétroaction sur la solution.
-    -   Le chef de l'équipe planifie les dates des démonstrations dans le contexte des itérations et **invite le promoteur et C. Fuhrman** par le biais d'un agenda électronique (Outlook, Google, etc.).
+    -   Le promoteur du projet ainsi que C. Fuhrman (et d'autres personnes qui codirigent le cas échéant) seront présents durant ces démonstrations pour donner une rétroaction sur la solution.
+    -   Le chef de l'équipe planifie les dates des démonstrations dans le contexte des itérations et **invite le promoteur, C. Fuhrman et les autres personnes impliquées** par le biais d'un agenda électronique (Outlook, Google, etc.).
     -   **Les rencontres** avec C. Fuhrman ou le promoteur **ne peuvent avoir lieu le soir, durant la pause de midi ou durant la fin de semaine.** 👪
     -   Vous trouverez **les disponibilités de C. Fuhrman** sur sa page web: <http://tiny.cc/cfuhrmanGoogleCal>. Consultez-les avant de lui proposer une rencontre spontanée.
 -   Vous devez **créer un espace de collaboration** pour votre équipe.
-    -   C. Fuhrman **recommande l'utilisation de Teams**, car le service informatique **(GUS) peut vous en créer un pour votre PFE** (vous devez mentionner que c'est demandé par C. Fuhrman).
-    -   En plus, il y a un espace Office relié au Teams et c'est pratique pour le partage de documents (rapports, etc.).
-    -   Vous pouvez aussi utiliser Slack ou Discord (pour clavardage) mais Google Drive n'est plus supporté par le STI pour les activités de premiers cycles.
--   Puisque la plupart des projets encadrés par C. Fuhrman impliquent du développement de logiciels libres, il faudrait **avoir un compte sur GitHub**. C. Fuhrman recommande de configurer votre compte sur GitHub avec votre adresse courriel de l'ÉTS. Cela vous permettra d'avoir des fonctionnalités supplémentaires grâce à GitHub for Education.
+    -   C. Fuhrman **recommande l'utilisation de Teams** et Office 365. C. Fuhrman devra autoriser la demande GUS si vous voulez un espace Teams à part, mais dès qu'on cré une rencontre dans Microsoft Teams, on peut y ajouter des fichiers, des notes, etc.
+    -   Office est pratique pour le partage de documents (rapports, etc.).
+    -   Vous pouvez aussi utiliser Slack ou Discord (pour clavardage) mais c'est plus de gestion. Sachez que Google Drive n'est plus supporté par le STI pour les activités de premiers cycles.
+-   Puisque la plupart des projets encadrés par C. Fuhrman impliquent du développement de logiciels libres, il faudrait **avoir un compte sur GitHub**. C. Fuhrman recommande de configurer votre compte sur GitHub avec votre adresse courriel de l'ÉTS. Cela vous permettra d'avoir des fonctionnalités supplémentaires (Copilot, etc.) grâce à GitHub for Education.
 -   Il faut que votre équipe ait discuté de la license libre à utiliser pour votre projet. **C. Fuhrman recommande d'utiliser une license libre comme la license MIT**.
+-   Tout PFE ayant une licence libre doit être **hébergé sur GitHub et la licence doit être dans le dépôt**. C. Fuhrman recommande de créer un dépôt pour votre projet sur GitHub dès que possible. **C. Fuhrman refusera de corriger votre rapport si la license n'est pas dans le dépôt.**
 -   Il vaut mieux avoir commencé le **contrat d'encadrement disponible sur Moodle**. Suivez un des exemples disponibles également sur Moodle.
+
+# Conseils pour la rédaction du rapport
+
+-   Éviter le plagiat [Cours : ATE800 Intégrité intellectuelle : un savoir-être et un savoir-faire (HIV2016)](https://accros.etsmtl.ca/Rapports/atelier/index.html)
+-   Si vous pensez utiliser un SIAG (Systèmes d'Intelligence Artificielle Générative, comme ChatGPT ou Copilot) pour aider avec la rédaction :
+    -   Les informations que vous donnez au SIAG sont souvent réutilisées par l'entreprise (OpenAI, Microsoft, etc.) offrant le service (vous leur donnez des informations)! **Ça peut donc aller à l'encontre de la confidentialité** (surtout pour les **projets où le promoteur est une entreprise**). Il vaut mieux en parler avec le promoteur avant d'utiliser le SIAG.
+    -   On **doit** déclarer quels outils SIAG ont été utilisés lors de la rédaction (dans la section Avant-Propos). Sinon, c'est [une infraction de nature académique](https://www.etsmtl.ca/a-propos/gouvernance/secretariat-general/cadre-reglementaire/reglement-sur-les-infractions-de-nature-academique).
+-   Utiliser un outil comme Antidote pour éviter les fautes de français.
+-   Suivre les directives de rédaction sur [Accros](https://accros.etsmtl.ca/)
+    -   [Guides et gabarits de rédaction](http://etsmtl.ca/Etudiants-actuels/Cycles-sup/Realisation-etudes/Guides-gabarits)
+        -   Bibliographie, citations
+        -   Mendeley, EndNote, Zotero, etc.
+        -   Zotero fonctionne avec Word (application Windows) mais pas avec Office 365.
+-   Pour le temps des verbes, il faut respecter les consignes du [Guide de rédaction d'un rapport technique](https://accros.etsmtl.ca/rapports/findetudes/rapport_fin_etudes/guide_redaction.pdf#page=16): 
+
+    > *1.7 Temps de verbe*  
+    >  
+    > *Dans un rapport technique, le choix des temps de verbe se résume à une seule règle quasi générale : **usage exclusif du présent et du passé composé***.  
+
+-   Pour la structure, il y a un bon résumé dans **1.3 Développement ou corps du travail** <https://www.etsmtl.ca/docs/etudes/Guides-gabarits/Documents/guide-redaction-projet-memoire-these#page=23>. Cependant, la structure est généralisée pour un rapport d'ingénierie. Il est normal d'avoir des questions à propos de comment appliquer cette structure à un sujet précis. **C'est important de communiquer avec moi tôt par rapport à la structure.**
+    -   Pour la partie « Revue de la littérature », on s'attend à ce qu'il y ait une présentation et un résumé des pratiques pertinentes à propos du sujet. Il n'est pas nécessaire de faire une revue exhaustive, mais il faut présenter des éléments importants dans le domaine (livres, articles de revue scientifique, normes, etc.). Généralement il s'agit d'au moins une dizaine de références.
+    -   Souvent, la partie "Résultats" se présente sur plusieurs chapitres. Par exemple, dans une application Web, l'équipe a fait des contributions concernant les parties frontale, serveur, base de données, etc. Il vaut mieux les présenter dans des chapitres séparés.
+-   Pour la conclusion, je vous recommande la structure suivante en **3 paragraphes**. Ceci est un extrait de la grille d'évaluation provenant du site [Accros](https://accros.etsmtl.ca/Rapports/index.asp):
+
++-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+| Critères                                                          | Sous-critère 1                                                               | Sous-critère 2          |
++===================================================================+==============================================================================+=========================+
+| **1^er^ paragraphe: Résumé du développement**                     | Respect des objectifs                                                        | Respect des normes      |
+|                                                                   |                                                                              |                         |
+|                                                                   | -   Rappel succinct des éléments de la problématique, des solutions retenues | -   cohérence du propos |
+|                                                                   |                                                                              |                         |
+|                                                                   | -   Souci de guider le lecteur vers la prise de décision                     | -   logique des idées   |
+|                                                                   |                                                                              |                         |
+|                                                                   |                                                                              | -   pertinence du cas   |
++-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+| **2^e^ paragraphe: Rappel précis du mandat, de la problématique** | Démarche explicitée                                                          | Limites du projet       |
++-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+| **3^e^ paragraphe: ouverture**                                    | Guider le lecteur vers l'action à entreprendre                               |                         |
++-------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
