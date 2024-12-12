@@ -1,5 +1,6 @@
 ---
 title: "Directives pour étudiants et étudiantes de PFE"
+bibliography: biblio.bib
 ---
 
 # Avant la première rencontre
@@ -22,35 +23,42 @@ title: "Directives pour étudiants et étudiantes de PFE"
 
 # Conseils pour la présentation
 
--   Organisez votre présentation avec un aperçu "plan" (*outline* en anglais) avant d'ajouter les images, etc.
+Ces conseils complémentent les directives de l'Annexe C de @chasse2005preparer.
 
--   Pour la partie introduction (et contexte), **vulgarisez**!
-    Vous avez travaillé toute la session sur votre projet et vous le comprenez bien.
-    Ce n'est pas le cas pour votre publique.
-    Pour garder l'attention de votre publique, il faut qu'il comprenne bien le problème de votre PFE.
-    Vous pouvez revenir à l'énoncé de la proposition (sur le site Moodle) si vous avez besoin d'inspiration, car normalement le problème du projet vous a été expliqué dans ce texte-là.
+## Organisation du contenu
 
--   Considérez [le logiciel open-source Quarto pour faire votre présentation](https://quarto.org/docs/gallery/#presentations) (écrite en markdown).
-    Je l'utilise pour faire toutes mes présentations en classe, le manuel de LOG210 et même ce site web de conseils.
+- Si vous utilisez PowerPoint, **organisez votre présentation avec l'aperçu "plan" (*outline* en anglais) avant d'ajouter les images**, etc. Saisir le texte de cette manière a aussi l'avantage que l'affichage des diapositives respectera la conception du gabarit (polices, couleurs, etc.).
+- Considérez [le logiciel open-source Quarto pour faire votre présentation](https://quarto.org/docs/gallery/#presentations) dont la rédaction se fait en markdown.
+Je l'utilise pour faire toutes mes présentations en classe, le manuel de LOG210 et même ce site web de conseils.
+- Limitez l'affichage de texte à six ou sept **points** par diapositive, que vous organiserez en liste à puces, par exemple. N'affichez pas plus que six à huit mots par ligne.
+- Si vous devez absolument afficher du texte en continu, limitez-vous à des segments de deux ou trois phrases (quatre à six lignes), et prévoyez un temps de lecture approprié pour l'auditoire.
+- Vos diapositives devraient inclure divers repères relatifs au déroulement de l'exposé et à la structure de son support visuel. Par exemple, prenez soin de **paginer** vos diapositives. Signalez par un moyen ou un code quelconque où on en est dans le plan de l'exposé :
+  - Réaffichez périodiquement le plan en marquant (couleur, encadré, etc.) le point qu'on va aborder.
+  - Affichez, dans chaque diapositive, un en-tête ou une icône indiquant le point du plan auquel on se réfère.
+- Pour la partie introduction (et contexte), **vulgarisez**!
+Vous avez travaillé toute la session sur votre projet et vous le comprenez bien.
+Ce n'est pas le cas pour votre publique.
+Pour garder l'attention de votre publique, il faut qu'il comprenne bien le problème de votre PFE.
+Vous pouvez revenir à l'énoncé de la proposition de PFE (sur le site Moodle du cours) si vous avez besoin d'inspiration, car normalement le problème du projet vous a été expliqué dans ce texte-là.
 
 ## Aspects visuels
 
--   Utiliser un gabarit avec les polices lisibles à l'écran dans une salle de classe.
+- **Utilisez un gabarit prédéfini**: cela une palette de couleurs équilibrée et homogène.
+-   Utilisez un gabarit avec **les polices lisibles à l'écran dans une salle de classe**.
     Malheureusement, beaucoup de gabarits sont conçus (je crois) pour les présentations en ligne, où le publique est proche de l'écran.
-    Vous devez faire la présentation dans une salle de classe.
+    Vous devez faire la présentation dans une salle de classe avec 30 à 50 places assises.
     Alors, voici mes conseils pour les polices:
-
     -   Titres et en-têtes: 32-44 points (ou plus).
-
     -   Text principal: 24-28 points.
-
     -   Sous-titres ou annotations: 18-20 points.
-
--   Pour les captures d'écran, utiliser le zoom du navigateur pour grossir le texte si possible AVANT de faire la capture d'écran.
-
+-   Pour les captures d'écran de page web, **utilisez le zoom du navigateur pour grossir le texte si possible AVANT de faire la capture d'écran**.
 -   Si vous avez des graphes ou d'autres visualisations, sachez qu'une police plus petite que 20 points ne sera pas très lisible.
-
--   Ne pas utiliser "dark mode" pour les captures d'écran ou pour afficher du code source; ça s'affiche mal sur les projecteurs.
+-   **Ne pas utiliser "dark mode"** pour les captures d'écran ou pour afficher du code source; ça s'affiche mal sur les projecteurs.
+- **Privilégiez les fonds clairs**: ils conviennent à la plupart des éclairages et facilitent la lecture.
+- **Évitez les fonds texturés** (motifs, filigranes, etc.) : ils nuisent à la lisibilité.
+- Contrastez bien les couleurs du texte et les autres éléments avec le fond.
+- **Limitez-vous à trois couleurs** principales sur l'ensemble de vos diapositives.
+- Faites en sorte que l'emploi des couleurs soit cohérent pour les titres, les sous-titres, etc. 
 
 # Conseils pour la rédaction du rapport
 
@@ -106,3 +114,5 @@ Le rapport vaut beaucoup de points, car votre bon travail de PFE sera rayonné p
 | **3^e^ paragraphe\                             | Guider le lecteur vers l'action à entreprendre                               |                         |
 | ouverture**                                    |                                                                              |                         |
 +------------------------------------------------+------------------------------------------------------------------------------+-------------------------+
+
+# Références
