@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -139,9 +159,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#avant-la-première-rencontre" id="toc-avant-la-première-rencontre" class="nav-link active" data-scroll-target="#avant-la-première-rencontre">Avant la première rencontre</a></li>
   <li><a href="#conseils-pour-la-présentation" id="toc-conseils-pour-la-présentation" class="nav-link" data-scroll-target="#conseils-pour-la-présentation">Conseils pour la présentation</a>
   <ul class="collapse">
+  <li><a href="#organisation-du-contenu" id="toc-organisation-du-contenu" class="nav-link" data-scroll-target="#organisation-du-contenu">Organisation du contenu</a></li>
   <li><a href="#aspects-visuels" id="toc-aspects-visuels" class="nav-link" data-scroll-target="#aspects-visuels">Aspects visuels</a></li>
   </ul></li>
   <li><a href="#conseils-pour-la-rédaction-du-rapport" id="toc-conseils-pour-la-rédaction-du-rapport" class="nav-link" data-scroll-target="#conseils-pour-la-rédaction-du-rapport">Conseils pour la rédaction du rapport</a></li>
+  <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références">Références</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/fuhrmanator/gtilog795-web/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li><li><a href="https://github.com/fuhrmanator/gtilog795-web/edit/main/fuhrman.qmd" class="toc-action"><i class="bi empty"></i>Modifier cette page</a></li></ul></div></nav>
     </div>
@@ -178,23 +200,40 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="conseils-pour-la-présentation" class="level1">
 <h1>Conseils pour la présentation</h1>
+<p>Ces conseils complémentent les directives de l’Annexe C de <span class="citation" data-cites="chasse2005preparer">Chassé et Prégent (<a href="#ref-chasse2005preparer" role="doc-biblioref">2005</a>)</span>.</p>
+<section id="organisation-du-contenu" class="level2">
+<h2 class="anchored" data-anchor-id="organisation-du-contenu">Organisation du contenu</h2>
 <ul>
-<li><p>Organisez votre présentation avec un aperçu «&nbsp;plan&nbsp;» (<em>outline</em> en anglais) avant d’ajouter les images, etc.</p></li>
-<li><p>Pour la partie introduction (et contexte), <strong>vulgarisez</strong>! Vous avez travaillé toute la session sur votre projet et vous le comprenez bien. Ce n’est pas le cas pour votre publique. Pour garder l’attention de votre publique, il faut qu’il comprenne bien le problème de votre PFE. Vous pouvez revenir à l’énoncé de la proposition (sur le site Moodle) si vous avez besoin d’inspiration, car normalement le problème du projet vous a été expliqué dans ce texte-là.</p></li>
-<li><p>Considérez <a href="https://quarto.org/docs/gallery/#presentations">le logiciel open-source Quarto pour faire votre présentation</a> (écrite en markdown). Je l’utilise pour faire toutes mes présentations en classe, le manuel de LOG210 et même ce site web de conseils.</p></li>
+<li>Si vous utilisez PowerPoint, <strong>organisez votre présentation avec l’aperçu «&nbsp;plan&nbsp;» (<em>outline</em> en anglais) avant d’ajouter les images</strong>, etc. Saisir le texte de cette manière a aussi l’avantage que l’affichage des diapositives respectera la conception du gabarit (polices, couleurs, etc.).</li>
+<li>Considérez <a href="https://quarto.org/docs/gallery/#presentations">le logiciel open-source Quarto pour faire votre présentation</a> dont la rédaction se fait en markdown. Je l’utilise pour faire toutes mes présentations en classe, le manuel de LOG210 et même ce site web de conseils.</li>
+<li>Limitez l’affichage de texte à six ou sept <strong>points</strong> par diapositive, que vous organiserez en liste à puces, par exemple. N’affichez pas plus que six à huit mots par ligne.</li>
+<li>Si vous devez absolument afficher du texte en continu, limitez-vous à des segments de deux ou trois phrases (quatre à six lignes), et prévoyez un temps de lecture approprié pour l’auditoire.</li>
+<li>Vos diapositives devraient inclure divers repères relatifs au déroulement de l’exposé et à la structure de son support visuel. Par exemple, prenez soin de <strong>paginer</strong> vos diapositives. Signalez par un moyen ou un code quelconque où on en est dans le plan de l’exposé :
+<ul>
+<li>Réaffichez périodiquement le plan en marquant (couleur, encadré, etc.) le point qu’on va aborder.</li>
+<li>Affichez, dans chaque diapositive, un en-tête ou une icône indiquant le point du plan auquel on se réfère.</li>
+</ul></li>
+<li>Pour la partie introduction (et contexte), <strong>vulgarisez</strong>! Vous avez travaillé toute la session sur votre projet et vous le comprenez bien. Ce n’est pas le cas pour votre publique. Pour garder l’attention de votre publique, il faut qu’il comprenne bien le problème de votre PFE. Vous pouvez revenir à l’énoncé de la proposition de PFE (sur le site Moodle du cours) si vous avez besoin d’inspiration, car normalement le problème du projet vous a été expliqué dans ce texte-là.</li>
 </ul>
+</section>
 <section id="aspects-visuels" class="level2">
 <h2 class="anchored" data-anchor-id="aspects-visuels">Aspects visuels</h2>
 <ul>
-<li><p>Utiliser un gabarit avec les polices lisibles à l’écran dans une salle de classe. Malheureusement, beaucoup de gabarits sont conçus (je crois) pour les présentations en ligne, où le publique est proche de l’écran. Vous devez faire la présentation dans une salle de classe. Alors, voici mes conseils pour les polices:</p>
+<li><strong>Utilisez un gabarit prédéfini</strong>: cela une palette de couleurs équilibrée et homogène.</li>
+<li>Utilisez un gabarit avec <strong>les polices lisibles à l’écran dans une salle de classe</strong>. Malheureusement, beaucoup de gabarits sont conçus (je crois) pour les présentations en ligne, où le publique est proche de l’écran. Vous devez faire la présentation dans une salle de classe avec 30 à 50 places assises. Alors, voici mes conseils pour les polices:
 <ul>
-<li><p>Titres et en-têtes: 32-44 points (ou plus).</p></li>
-<li><p>Text principal: 24-28 points.</p></li>
-<li><p>Sous-titres ou annotations: 18-20 points.</p></li>
+<li>Titres et en-têtes: 32-44 points (ou plus).</li>
+<li>Text principal: 24-28 points.</li>
+<li>Sous-titres ou annotations: 18-20 points.</li>
 </ul></li>
-<li><p>Pour les captures d’écran, utiliser le zoom du navigateur pour grossir le texte si possible AVANT de faire la capture d’écran.</p></li>
-<li><p>Si vous avez des graphes ou d’autres visualisations, sachez qu’une police plus petite que 20 points ne sera pas très lisible.</p></li>
-<li><p>Ne pas utiliser «&nbsp;dark mode&nbsp;» pour les captures d’écran ou pour afficher du code source; ça s’affiche mal sur les projecteurs.</p></li>
+<li>Pour les captures d’écran de page web, <strong>utilisez le zoom du navigateur pour grossir le texte si possible AVANT de faire la capture d’écran</strong>.</li>
+<li>Si vous avez des graphes ou d’autres visualisations, sachez qu’une police plus petite que 20 points ne sera pas très lisible.</li>
+<li><strong>Ne pas utiliser «&nbsp;dark mode&nbsp;»</strong> pour les captures d’écran ou pour afficher du code source; ça s’affiche mal sur les projecteurs.</li>
+<li><strong>Privilégiez les fonds clairs</strong>: ils conviennent à la plupart des éclairages et facilitent la lecture.</li>
+<li><strong>Évitez les fonds texturés</strong> (motifs, filigranes, etc.) : ils nuisent à la lisibilité.</li>
+<li>Contrastez bien les couleurs du texte et les autres éléments avec le fond.</li>
+<li><strong>Limitez-vous à trois couleurs</strong> principales sur l’ensemble de vos diapositives.</li>
+<li>Faites en sorte que l’emploi des couleurs soit cohérent pour les titres, les sous-titres, etc.</li>
 </ul>
 </section>
 </section>
@@ -273,11 +312,19 @@ ouverture</strong></td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="références" class="level1">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Références</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-chasse2005preparer" class="csl-entry" role="listitem">
+Chassé, Dominique, et Richard Prégent. 2005. <em>Pr<span>é</span>parer et donner un expos<span>é</span></em>. Presses inter Polytechnique.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
