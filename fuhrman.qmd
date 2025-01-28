@@ -1,5 +1,5 @@
 ---
-title: "Directives pour étudiants et étudiantes de PFE"
+title: "Directives pour étudiants et étudiantes de PFE avec C. Fuhrman"
 bibliography: biblio.bib
 ---
 
@@ -20,6 +20,19 @@ bibliography: biblio.bib
 -   Il faut que votre équipe ait discuté de la license libre à utiliser pour votre projet. **C. Fuhrman recommande d'utiliser une license libre comme la license MIT**.
 -   Tout PFE ayant une licence libre doit être **hébergé sur GitHub et la licence doit être dans le dépôt**. C. Fuhrman recommande de créer un dépôt pour votre projet sur GitHub dès que possible. **C. Fuhrman refusera de corriger votre rapport si la license n'est pas dans le dépôt.**
 -   Il vaut mieux avoir commencé le **contrat d'encadrement disponible sur Moodle**. Suivez un des exemples disponibles également sur Moodle.
+
+# Pendant le projet itératif
+
+Chaque itération doit être planifiée pour que l'équipe puisse avancer de manière efficace et que les promoteurs puissent fournir une rétroaction sur l'avancement du projet. Voici quelques conseils pour chaque itération:
+
+- Utilisez le [gabarit de plan d'itération de LOG210](https://github.com/profcfuhrmanets/log210-enonce-lab1/blob/main/rapports/plan-iteration-gabarit.md).
+- Créez un plan d'itération pour chaque itération _avant_ le début de l'itération et partagez-le avec C. Fuhrman pour obtenir des commentaires.
+- À la mi-itération, faites une rétrospective pour voir si vous pourrez attendre les objectifs de l'itération. Si vous ne pourrez pas, ajustez le plan d'itération (réduire les fonctionnalités, déplacer un objectif à la prochaine itération, etc.).
+- Quelques jours avant la fin de l'itération (avant la démonstration), partagez les objectifs du plan d'itération avec les parties prenantes (invitées à la démonstration) pour qu'ils sachent à quoi s'attendre.
+- La démonstration doit suivre le plan d'itération. Ne montrez pas des éléments (plan du projet, contrat d'encadrement, etc.) de votre PFE qui ne concernent pas les promoteurs (clients) du système que vous présentez.
+- Au moins une personne dans l'équipe doit prendre les notes pendant la démonstration.
+- Après la démonstration, compléter la section "Évaluation" du plan (c'est ce que vous auriez dû faire dans LOG210), et planifier les objectifs pour la prochaine itération.
+- Dans le cours de gestion de projet de votre programme, vous auriez dû voir des stratégies de planification de projet itératif/agile. Utilisez ces stratégies pour planifier vos itérations.
 
 # Conseils pour la présentation
 
