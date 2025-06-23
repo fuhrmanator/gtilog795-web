@@ -26,6 +26,9 @@ bibliography: biblio.bib
 Chaque itération doit être planifiée pour que l'équipe puisse avancer de manière efficace et que les promoteurs puissent fournir une rétroaction sur l'avancement du projet. Voici quelques conseils pour chaque itération:
 
 - Utilisez le [gabarit de plan d'itération de LOG210](https://github.com/profcfuhrmanets/log210-enonce-lab1/blob/main/rapports/plan-iteration-gabarit.md).
+  - Les objectifs de l'itération doivent être clairs et mesurables, idéalement des besoins ([FURPS](https://fuhrmanator.github.io/log210-ndc-quarto/Besoins.html#furps)). Évitez de proposer les artefacts de développement comme objectifs, par exemple "~~Écrire le code pour la fonctionnalité X~~" ou "~~Faire la documentation de la fonctionnalité Y~~". Il s'agit de tâches (dans la partie **Affectations d'éléments de travail**), pas d'objectifs.
+  - Il faut confirmer les objectifs de l'itération avec le promoteur du projet avant de commencer l'itération.
+  - Les **Critères d'évaluation** doivent être clairs et mesurables, idéalement des tests automatisés. Pour les fonctionnalités, on peut aussi les évaluer par un critère d'acceptation, par exemple "La fonctionnalité X a reçu une rétroaction positive de la part du promoteur".
 - Créez un plan d'itération pour chaque itération _avant_ le début de l'itération et partagez-le avec C. Fuhrman pour obtenir des commentaires.
 - À la mi-itération, faites une rétrospective pour voir si vous pourrez attendre les objectifs de l'itération. Si vous ne pourrez pas, ajustez le plan d'itération (réduire les fonctionnalités, déplacer un objectif à la prochaine itération, etc.).
 - Quelques jours avant la fin de l'itération (avant la démonstration), partagez les objectifs du plan d'itération avec les parties prenantes (invitées à la démonstration) pour qu'ils sachent à quoi s'attendre.
