@@ -7,12 +7,14 @@ bibliography: biblio.bib
 
 -   Vous devez avoir lu et compris **le plan de cours**. 😉 C. Fuhrman pourra répondre à toutes vos questions pendant la rencontre.
 -   Vous devez avoir déterminé **la personne qui jouera le rôle de chef d'équipe** pour que les choses avancent. Le rôle est expliqué dans le plan de cours.
+-   Une personne doit agir comme *architecte logiciel* pour le projet. **L'architecte logiciel se soucie de la structure du code, des bonnes pratiques de développement, etc.** Normalement, cette personne évalue les pull requests (demandes de tirage) dans GitHub, mais elle peut aussi faire des revues de code en personne.
 -   Vous devez savoir **les disponibilités générales pour votre équipe**. Il faudra faire des démonstrations de solution à la fin de chaque itération. **Une démonstration aura lieu pendant les heures de travail.**
     -   Le promoteur du projet ainsi que C. Fuhrman (et d'autres personnes qui codirigent le cas échéant) seront présents durant ces démonstrations pour donner une rétroaction sur la solution.
     -   Le chef de l'équipe planifie les dates des démonstrations dans le contexte des itérations et **invite le promoteur, C. Fuhrman et les autres personnes impliquées** par le biais d'un agenda électronique (Outlook, Google, etc.).
     -   **Les rencontres** avec C. Fuhrman ou le promoteur **ne peuvent avoir lieu le soir, durant la pause de midi ou durant la fin de semaine.** 👪
     -   Vous trouverez **les disponibilités de C. Fuhrman** sur sa page web: <http://tiny.cc/cfuhrmanGoogleCal>. Consultez-les avant de lui proposer une rencontre spontanée.
 -   Vous devez **créer un espace de collaboration** pour votre équipe.
+    -   Vous devez partager des documents, des notes, des fichiers, etc. avec votre équipe et avec C. Fuhrman.
     -   C. Fuhrman **recommande l'utilisation de Teams** et Office 365. C. Fuhrman devra autoriser la demande GUS si vous voulez un espace Teams à part, mais dès qu'on cré une rencontre dans Microsoft Teams, on peut y ajouter des fichiers, des notes, etc.
     -   Office est pratique pour le partage de documents (rapports, etc.).
     -   Vous pouvez aussi utiliser Slack ou Discord (pour clavardage) mais c'est plus de gestion. Sachez que Google Drive n'est plus supporté par le STI pour les activités de premiers cycles.
@@ -21,11 +23,21 @@ bibliography: biblio.bib
 -   Tout PFE ayant une licence libre doit être **hébergé sur GitHub et la licence doit être dans le dépôt**. C. Fuhrman recommande de créer un dépôt pour votre projet sur GitHub dès que possible. **C. Fuhrman refusera de corriger votre rapport si la license n'est pas dans le dépôt.**
 -   Il vaut mieux avoir commencé le **contrat d'encadrement disponible sur Moodle**. Suivez un des exemples disponibles également sur Moodle.
 
+# Pour la première rencontre
+
+-   Prévoyez une rencontre d'environ 1 heure, en personne. Vous pouvez réserver un local de rencontre via le portail MonETS.
+-   La rencontre peut être séparée en deux parties:
+    1. Une partie (~30 minutes) avec C. Fuhrman et les codirecteurs ou codirectrices pour discuter du plan de cours, du contrat d'encadrement, etc.
+    2. Une partie avec le promoteur du projet (client) pour discuter du projet, des attentes, etc. Cette partie pourrait être plus longue (30 à 60 minutes) et pourrait être faite à une autre date. Si les deux rencontres sont ensemble, il faut expliquer au promoteur que la première partie de la rencontre ne le concerne pas et qu'il peut arriver plus tard.
+-   Préparez une **présentation PowerPoint** (ou autre) pour la rencontre.
+-   Envoyez le contrat d'encadrement à C. Fuhrman au moins 24 heures avant la rencontre.
+
 # Pendant le projet itératif
 
 Chaque itération doit être planifiée pour que l'équipe puisse avancer de manière efficace et que les promoteurs puissent fournir une rétroaction sur l'avancement du projet. Voici quelques conseils pour chaque itération:
 
-- Utilisez le [gabarit de plan d'itération de LOG210](https://github.com/profcfuhrmanets/log210-enonce-lab1/blob/main/rapports/plan-iteration-gabarit.md).
+- L'architecte logiciel doit s'assurer que le code respecte les bonnes pratiques de développement (structure, tests automatisés, documentation, etc.) et que les pull requests sont évaluées avant d'être fusionnées dans la branche principale.
+- Pour la planification, utilisez le [gabarit de plan d'itération de LOG210](https://github.com/profcfuhrmanets/log210-enonce-lab1/blob/main/rapports/plan-iteration-gabarit.md).
   - Les objectifs de l'itération doivent être clairs et mesurables, idéalement des besoins ([FURPS](https://fuhrmanator.github.io/log210-ndc-quarto/Besoins.html#furps)). Évitez de proposer les artefacts de développement comme objectifs, par exemple "~~Écrire le code pour la fonctionnalité X~~" ou "~~Faire la documentation de la fonctionnalité Y~~". Il s'agit de tâches (dans la partie **Affectations d'éléments de travail**), pas d'objectifs.
   - Il faut confirmer les objectifs de l'itération avec le promoteur du projet avant de commencer l'itération.
   - Les **Critères d'évaluation** doivent être clairs et mesurables, idéalement des tests automatisés. Pour les fonctionnalités, on peut aussi les évaluer par un critère d'acceptation, par exemple "La fonctionnalité X a reçu une rétroaction positive de la part du promoteur".
