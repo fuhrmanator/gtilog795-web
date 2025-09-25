@@ -66,4 +66,8 @@ Il peut arriver qu'un projet n'ait pas suffisamment d'intérêt pour former une 
 
 Voici les dates importantes pour le processus de proposition, d'approbation et de choix des projets de fin d'études LOG795/GTI795.
 
+::: {.callout-warning}
+**Les dates sont sujettes à changement sans préavis, au fur et à mesure que le trimestre avance.**
+:::
+
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=AGENDA&src=Y184Y2MyZTY4YjM4MDc3NzNjZDBjZWFkYzIxY2VmY2UxNzE4YmI1ZDI1MmI0MWZhYWQ3YTgzYTlkZGJhZDNmYmM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23b39ddb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
