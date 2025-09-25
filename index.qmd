@@ -61,3 +61,9 @@ Ensuite, les équipes de 4 à 6 étudiants sont déterminées selon un algorithm
 Il peut arriver qu'un projet n'ait pas suffisamment d'intérêt pour former une équipe complète, ou que plusieurs équipes travaillent indépendamment sur le même projet.
 
 ![Processus pour déterminer les équipes pour les projets de fin d'études](http://tiny.cc/pfelogti_proc_equpe_svg)
+
+# Dates importantes
+
+Voici les dates importantes pour le processus de proposition, d'approbation et de choix des projets de fin d'études LOG795/GTI795.
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=AGENDA&src=Y184Y2MyZTY4YjM4MDc3NzNjZDBjZWFkYzIxY2VmY2UxNzE4YmI1ZDI1MmI0MWZhYWQ3YTgzYTlkZGJhZDNmYmM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23b39ddb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
