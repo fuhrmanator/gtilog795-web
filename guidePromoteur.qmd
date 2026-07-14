@@ -68,7 +68,7 @@ Il y a trois parties prenantes dans un PFE:
 2. le corps professoral affecté aux projets et 
 3. le Promoteur du projet (qui est parfois une Compagnie).
 
-**La communauté étudiante de l'ÉTS inscrite dans le PFE**
+#### La communauté étudiante de l'ÉTS inscrite dans le PFE
 
 - L'apprentissage des notions apprises durant le baccalauréat grâce à une application pratique qui va conduire à la rédaction d'un rapport technique et une présentation devant un public.
 - Dans le cas des PFE en LOG et en GTI, des logiciels sont presque toujours créés.
@@ -77,7 +77,7 @@ Il y a trois parties prenantes dans un PFE:
 Un PFE n'est pas un contrat avec une entreprise: **il n'y a pas de livrables définis, pas de dates fixes, pas de garanties de qualité du code, etc.**
 :::
 
-**Le corps professoral de l'ÉTS affecté au projet**
+#### Le corps professoral de l'ÉTS affecté au projet
 
 - L'encadrement (coaching) de l'équipe dans un **contexte de formation universitaire**.
 - L'évaluation de l'équipe dans le contexte du cours de PFE (selon le plan de cours).
@@ -87,7 +87,7 @@ L'expertise ou la propriété intellectuelle (PI) du corps professoral ne font p
 Les droits de PI du corps professoral de l'ÉTS appartiennent à l'ÉTS.
 :::
 
-**Le Promoteur (Compagnie)**
+#### Le Promoteur (Compagnie)
 
 - Le mentorat et le transfert de connaissances dans un **contexte de formation universitaire**.
 - "Expert du domaine" ou ["Subject Matter Expert" (SME)](https://scrumdictionary.com/term/subject-matter-expert-sme/) en méthodologie Scrum.
